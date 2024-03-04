@@ -33,7 +33,6 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
   <summary>Solution</summary>
  
 ```
-----
 >>> 0b10101010
 170
 >>> 0xaa
@@ -42,8 +41,6 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
 170
 >>> 170
 170
-----
-
 ```
 </details>
 
@@ -59,8 +56,18 @@ On peut coder les différentes opération mathématiques :
 * Division entière : 5//2
 * Modulo : 30%4
 
- **À ton tour !** Calcule la moyenne de 127, 45 et 72.4
+ **À ton tour !** Calcule la moyenne de 127, 45 et 72.6
 
- 
+<details open>
+  <summary>Solution</summary>
+
+```
+>>> (127+45+72.6)/3
+81.5333333333
+>>> (127+45+72.6)//3
+81.0
+```
+
+ </details>
 
 
