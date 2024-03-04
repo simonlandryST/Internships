@@ -70,4 +70,19 @@ On peut coder les différentes opération mathématiques :
 
  </details>
 
+ ### Affichage à l'écran
+
+Le même nombre peut être affiché à l'écran sous plusieurs formats en fonction de la base souhaitée. Les fonctions python utilisées sont ```hex()``` pour afficher en base hexadécimale et ```bin()``` pour afficher en base binaire. Une manière d'afficher un texte et un nombre à l'écran est d'utiliser la syntaxe des *f-strings* encadré par des guillemets " ou '.
+
+**À ton tour !** Affiche à l'écran ```f'L'écriture hexadécimale de 240 est {hex(240)}, que je peux écrire aussi comme ça {240:02X}.'```
+<details open>
+  <summary>Solution</summary>
+
+```
+>>> f'L'écriture hexadécimale de 240 est {hex(240)}.'
+L'écriture hexadécimale de 240 est 0xf0, que je peux écrire aussi comme ça f0.
+```
+
+ </details>
+
 
