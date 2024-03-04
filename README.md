@@ -12,8 +12,8 @@
 ## Support Python
 
 Lancer un interpréteur _python_ :
-* Installer https://www.spyder-ide.org/[Spyder]
-* Sinon, lancer une console dans le navigateur : https://pyodide.org/en/stable/console.html[console]
+* Installer [Spyder](https://www.spyder-ide.org/)
+* Sinon, lancer une console dans le navigateur : [console](https://pyodide.org/en/stable/console.html)
 
 **Bases**
 * Base 10 : système décimal 0,1,2,3,...,9,10. 
