@@ -1,6 +1,7 @@
 # Sujet de stage : étude de la résistance d'un algorithme de chiffrement symétrique contre la cryptanalyse
 
 ## Organisation du stage
+
 |   Durée       |   Contenu |   Compétences acquises
 |---            |:-:    |:-:    |:-:    |--:    |
 | Lundi am | Présentation cryptologie dans les puces, présentation du stage | Comprendre l'environnement de travail, notions de cryptologie | 
