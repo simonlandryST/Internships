@@ -79,7 +79,7 @@ Le même nombre peut être affiché à l'écran sous plusieurs formats en foncti
   <summary>Solution</summary>
 
 ```
->>> f'L'écriture hexadécimale de 240 est {hex(240)}.'
+>>> f'L'écriture hexadécimale de 240 est {hex(240)}, que je peux écrire aussi comme ça {240:02X}.'
 L'écriture hexadécimale de 240 est 0xf0, que je peux écrire aussi comme ça f0.
 ```
 
