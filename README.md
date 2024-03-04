@@ -31,6 +31,7 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
 **À ton tour !** Utilise la console pour voir les valeurs des nombres suivants : 0b10101010, 0xaa, 0xAA, 170
 <details open>
   <summary>Solution</summary>
+ 
 ```
 ----
 >>> 0b10101010
@@ -42,6 +43,7 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
 >>> 170
 170
 ----
+
 ```
 </details>
 
