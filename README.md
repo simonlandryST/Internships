@@ -76,14 +76,16 @@ Le même nombre peut être affiché à l'écran sous plusieurs formats en foncti
 
 Une manière d'afficher un texte et un nombre à l'écran est d'utiliser la syntaxe des *f-strings* encadré par des guillemets " ou ' et le nombre entre accolades {}.
 
-La notation ```:02X``` demande une longueur minimale de 2 caractères en majuscules. Si le nombre est trop petit, un 0 se met à gauche.
+La notation ```:02X``` demande une longueur minimale de 2 caractères en majuscules (```:02x``` pour des minuscules). Si le nombre est trop petit et tient sur un seul caractère, un 0 se met à gauche.
 
-**À ton tour !** Affiche à l'écran l'écriture hexadécimale de 240, avec minimum 2 caractères en majuscules.
+**À ton tour !** Affiche à l'écran l'écriture hexadécimale de 14 et 240, avec minimum 2 caractères en majuscules.
 <details open>
   <summary>Solution possible</summary>
 
 ```
->>> f'L'écriture hexadécimale de 240 est {hex(240)}, que je peux écrire aussi comme ça {240:02X}.'
+>>> f'L'écriture hexadécimale de 14 est {hex(14)}, que je peux écrire en majuscules comme ça {14:02X}.'
+L'écriture hexadécimale de 14 est 0xe, que je peux écrire aussi comme ça 0E.
+>>> f'L'écriture hexadécimale de 240 est {hex(240)}, que je peux écrire en majuscule comme ça {240:02X}.'
 L'écriture hexadécimale de 240 est 0xf0, que je peux écrire aussi comme ça F0.
 ``` 
 
