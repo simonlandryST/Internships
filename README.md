@@ -15,11 +15,38 @@ Lancer un interpréteur _python_ :
 * Installer [Spyder](https://www.spyder-ide.org/)
 * Sinon, lancer une console dans le navigateur : [console](https://pyodide.org/en/stable/console.html)
 
-**Bases**
-* Base 10 : système décimal 0,1,2,3,...,9,10. 
+### Bases
+* Base 10 : système décimal 0, 1, 2, 3, ..., 9, 10. 
 * Base 2 : système binaire basé sur des bits, 0 et 1. Pour écrire un nombre, on compte en puissances de 2 de droite à gauche.
   * Par exemple, 10 = 2^3 + 2^2, 8 = 2^3, 3 = 2^2 + 2^0. L'écriture binaire en 4 bits de 10 est 1100, celle de 8 est 1000 et celle de 3 est 0011.
-* Base 16 : système hexadécimal basé sur les 16 caractères : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E et F. Pour écrire un nombre, on compte en puissances de 16, de droite à gauche.
+* Base 16 : système hexadécimal basé sur les 16 caractères : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E et F. Les lettres peuvent s'écrire en minuscules. Pour écrire un nombre, on compte en puissances de 16, de droite à gauche.
   * Par exemple, 1237 = 4 × 16^2 + 13 × 16^1 + 5 × 16^0. L'écriture hexadécimale de 1237 est 4D5.
 
+Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfixe :
+
+* Base 10 : rien devant
+* Base 2 : 0b
+* Base 16 : 0x
+
+**À ton tour !** Utilise la console pour voir les valeurs des nombres suivants : 0b10101010, 0xaa, 0xAA, 170
++
+.solution
+[%collapsible]
+====
+----
+>>> 0b10101010
+170
+>>> 0xaa
+170
+>>> 0xAA
+170
+>>> 170
+170
+>>> 0o252
+170
+----
+
+
+
+**String**
 
