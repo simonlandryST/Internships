@@ -29,6 +29,8 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
 * Base 16 : 0x
 
 **À ton tour !** Utilise la console pour voir les valeurs des nombres suivants : 0b10101010, 0xaa, 0xAA, 170
+<details open>
+  <summary>Solution</summary>
 ```
 ----
 >>> 0b10101010
@@ -41,8 +43,22 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
 170
 ----
 ```
+</details>
 
+### Calculs arithmétiques
 
+On peut coder les différentes opération mathématiques :
 
-**String**
+* Addition : 1+1
+* Soustraction : 2-1
+* Multiplication : 3*4
+* Puissance : 3**2
+* Division simple : 5/2
+* Division entière : 5//2
+* Modulo : 30%4
+
+ **À ton tour !** Calcule la moyenne de 127, 45 et 72.4
+
+ 
+
 
