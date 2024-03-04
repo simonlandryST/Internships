@@ -91,4 +91,21 @@ L'écriture hexadécimale de 240 est 0xf0, que je peux écrire aussi comme ça F
 
  </details>
 
+ ## Nombres Booléens
+
+ Les nombres booléens retourne soit vrai ```True``` soit faux ```False``` en fonction de la commande testée. Pour vérifier l'égalité entre deux nombres, on utilise le symbole ```==```. 
+
+ **À ton tour !** Vérifie si les équations suivantes sont justes : 2**6 + 7*8 = 30*4 et hex(18) = 0x13 
+<details open>
+  <summary>Solution</summary>
+
+```
+>>> print(2**6 + 7*8 == 30*4)
+True
+>>> print(hex(18) == '0x13')
+False
+``` 
+
+ </details>
+
 
