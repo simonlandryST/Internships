@@ -90,7 +90,8 @@ La notation ```:02X``` demande une longueur minimale de 2 caractères en majuscu
 ```
 >>> f'L'écriture hexadécimale de 14 est {hex(14)}, que je peux écrire en majuscules comme ça {14:02X}.'
 L'écriture hexadécimale de 14 est 0xe, que je peux écrire aussi comme ça 0E.
->>> f'L'écriture hexadécimale de 240 est {hex(240)}, que je peux écrire en majuscule comme ça {240:02X}.'
+
+>>> f'L'écriture hexadécimale de 240 est {hex(240)}, que je peux écrire en majuscules comme ça {240:02X}.'
 L'écriture hexadécimale de 240 est 0xf0, que je peux écrire aussi comme ça F0.
 ``` 
 
