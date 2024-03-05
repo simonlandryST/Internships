@@ -256,7 +256,7 @@ Quelques manipulations sont possibles sur les listes :
 
 * On définit une liste par un nom et un = : ```D = {'prenom':'Alice','age':16,'taille':165}```
 * On peut indexer un dictionnaire par une clé entre crochets : ```D['age']``` retourne 16
-* Un dictionnaire peut contenir tous les types d'éléments : nombre, booléens, listes, strings, d'autres dictionnaires : ```J = {'prenom':'Alice','age':16,'taille':165,'voitures':["opel","audi"],'valise':{"L":100,"l":50,"P":40}}
+* Un dictionnaire peut contenir tous les types d'éléments : nombre, booléens, listes, strings, d'autres dictionnaires : ```J = {'prenom':'Alice','age':16,'taille':165,'voitures':["opel","audi"],'valise':{"L":100,"l":50,"P":40}}```
 * On peut modifier un élément d'un label choisi : si ```D['taille']='170``` alors ```D = {'prenom':'Alice','age':16,'taille':170}```
 * On peut ajouter un label et son élément et modifier un élément en même temps : si ```D.update({'taille':"155",'cheveux':'blonds'})``` alors ```D = {'prenom':'Alice','age':16,'taille':155,'cheveux':'blonds'}```
 
