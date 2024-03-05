@@ -284,6 +284,35 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 ```
 
  </details>
+
+ **À ton tour !** Soit le dictionnaire suivant : 
+
+```
+dict = {'invites'            : ["Thomas","Ibrahima","Yanis","Morgane"],
+        'prixparpersonne'    : 120
+       }
+```
+
+Quel est le nombre d'invités ? Quel est le prix d'une nuit ? Quel est le prix total ? 
+
+ <details>
+  <summary>Solution</summary>
+ 
+```
+>>> dict = {'invites'            : ["Thomas","Ibrahima","Yanis","Morgane"],
+            'prixparpersonne'    : 120
+           }
+>>> n = len(dict['invites'])
+>>> n
+4
+>>> p = dict['prixparpersonne']
+>>> p
+120
+>>> n*p
+>>> 480
+```
+
+ </details>
  
 
  
