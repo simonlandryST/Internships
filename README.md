@@ -126,18 +126,17 @@ Quelques manipulations sont possibles sur les strings :
   <summary>Solution</summary>
  
 ```
->>> S = 'Ceci est une phrase de plus de vingts caractères.'
+>>> S = 'Ceci est une phrase de plus de vingts caractères'
 >>> S[:10]
 'Ceci est '
 >>> k in S
 False
 >>> S = S + 'z'
 >>> S
-'Ceci est une phrase de plus de vingts caractèresz.'
+'Ceci est une phrase de plus de vingts caractèresz'
 >>> S[6] = e
 >>> S
-'Ceci eet une phrase de plus de vingts caractères.'
-
+'Ceci eet une phrase de plus de vingts caractèresz'
 ```
 
  </details>
@@ -151,6 +150,32 @@ False
 'Batman'
 ```
 * On se rappelle que ```[i:j]``` en python veut en réalité dire ```[i:j[```
+
+ </details>
+
+**À ton tour !** Ecris la phrase "Le stage de seconde m'apporte des bases en python". Supprime le 15e caractère de cette phrase.
+<details open>
+  <summary>Solution</summary>
+ 
+```
+>>> S = "Le stage de seconde m'apporte des bases en python"
+>>> S = S[:15]+S[16:]
+>>> S
+'Le stage de secnde m'apporte des bases en python'
+```
+
+ </details>
+
+ **À ton tour !** Ecris l'alphabet dans une string. Décale de 3 positions les lettres de l'alphabet. Le a devient un d, le b devient un e etc... Les 3 premières lettres abc iront à la fin, après le z.
+ <details open>
+  <summary>Solution</summary>
+ 
+```
+>>> alphabet = 'abcdefghijklmnopqrstuvwxyz'
+>>> alphabet = alphabet[3:]+alphabet[:3]
+>>> alphabet
+'defghijklmnopqrstuvwxyzabc'
+```
 
  </details>
 
