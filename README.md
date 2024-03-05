@@ -108,4 +108,15 @@ False
 
  </details>
 
+## Strings
+
+Une string est une chaîne de caractères délimitée par des guillemets simples ' ou doubles ". On peut écrire un texte de plusieurs lignes en sautant des lignes avec le caractère ```\n```. 
+
+Quelques manipulations sont possibles sur les strings :
+
+* Addition et multiplication : ```'test*4 + fin'``` donne 'test test test test fin'
+* Vérifier qu'un caractère est présent dans la string : ```'a' in 'on teste si la lettre est presente'``` retourne True
+* On calcule la longueur de la string : ```len('test longueur') retourne 13. L'espace compte comme un caractère.
+* Accéder à un élément de la string avec les crochets [] : ```Batman[0]+Tarzan[3]+``` retourn 'Bz'
+* 
 
