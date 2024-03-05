@@ -108,7 +108,7 @@ False
 
  </details>
 
-## Strings
+## String
 
 Une string est une chaîne de caractères délimitée par des guillemets simples ```'``` ou doubles ```"````. On peut écrire un texte de plusieurs lignes en sautant des lignes avec le caractère ```\n```. 
 
@@ -179,7 +179,7 @@ False
 
  </details>
 
- ## Lists
+ ## List
 
 Une liste est une série d'éléments séparés par une virgule et enfermés par des crochets ```[]```. Par exemple, la liste ```["cryptologie", 4, "Paris", 12.4]``` contient 4 éléments. 
 
@@ -217,6 +217,27 @@ False
 ```
 
  </details>
+
+ ## Dictionnary
+
+Un dictionnaire permet de labéliser des éléments, enfermés par des accolades ```{}```. 
+
+Quelques manipulations sont possibles sur les listes :
+
+* On définit une liste par un nom et un = : ```D = {'prenom':'Alice','age':16,'taille':165}```
+* On peut indexer un dictionnaire par une clé entre crochets : ```D['age']``` retourne 16
+* Il n'est pas possible d'accéder à plusieurs éléments d'un coup
+* Un dictionnaire peut contenir tous les types d'éléments : nombre, booléens, listes, strings, d'autres dictionnaires : ```D = {'prenom':'Alice','age':16,'taille':165,'voitures':["opel","audi"],'valise':{"L":100,"l":50,"P":40}}
+
+**À ton tour !** Quel est le résultat de 
+```{'prix'   : 12,
+    'type'   : 'Table',
+    'options': ["red","blue"],
+    'dim'    : {"W":90,"L":180,"H":72}
+   }['options'][1][-2]```
+
+ 
+
  
 
 
