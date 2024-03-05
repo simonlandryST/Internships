@@ -174,7 +174,7 @@ False
 
  </details>
 
- **À ton tour !** Ecris l'alphabet dans une string. Décale de 3 positions les lettres de l'alphabet. Le a devient un d, le b devient un e etc... Les 3 premières lettres abc iront à la fin, après le z.
+ **À ton tour !** Ecris l'alphabet dans une string. Décale de 3 positions les lettres de l'alphabet. Le a devient un d, le b devient un e etc... Les 3 premières lettres abc iront à la fin, après le z. Vérifie que la taille de la string obtenue est bien égale à 26.
  <details>
   <summary>Solution</summary>
  
@@ -183,6 +183,8 @@ False
 >>> alphabet = alphabet[3:]+alphabet[:3]
 >>> alphabet
 'defghijklmnopqrstuvwxyzabc'
+>>> len(alphabet)
+26
 ```
 
  </details>
