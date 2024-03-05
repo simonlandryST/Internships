@@ -194,7 +194,7 @@ Quelques manipulations sont possibles sur les listes :
 * Double-liste, une liste peut en contenir une autre : ```LL = [[0,1,2],[3,4,5],[6,7,8]]``` est une matrice carée de 3 lignes et 3 colonnes. Un élément de LL correspond à une des sous-listes de 3 éléments. Par exemple, ```LL[1]``` retourne la sous-liste ```[3,4,5]```.
 * Double accès : ```K = [["amelie","eliot"],[16,15]]```, l'élément ```K[0][1]``` est ```"eliot"```.
 
-**À ton tour !** Défini une liste L = [2,4,6,8,10]. Ajoute l'élément "exercice" à la liste. Remplace la 3e lettre de cet élément par un x. Vérfie que l'élément 6 appartient à la liste. Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. 
+**À ton tour !** Défini une liste L = [2,4,6,8,10]. Ajoute l'élément "exercice" à la liste. Remplace la 3e lettre de cet élément par un x. Vérifie que l'élément 6 appartient à la liste. Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. 
 
 <details open>
   <summary>Solution</summary>
