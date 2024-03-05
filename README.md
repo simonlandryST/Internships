@@ -135,4 +135,18 @@ False
 
  </details>
 
+ **À ton tour !** Peux-tu me dire le résultat de 'Batman[:3]+Batman[3:] ?
+ <details open>
+  <summary>Solution</summary>
+ 
+```
+>>> 'Batman'[:3]+'Batman'[3:]
+'Batman'
+```
+* On se rappelle que ```[i:j]``` en python veut en réalité dire ```[i:j[```
+
+ </details>
+
+ 
+
 
