@@ -58,7 +58,7 @@ On peut coder les différentes opération mathématiques :
 
  **À ton tour !** Calcule la moyenne de 127, 45 et 72.6
 
-<details open>
+<details>
   <summary>Solution</summary>
 
 ```
@@ -79,7 +79,7 @@ Une manière d'afficher un texte et un nombre à l'écran est d'utiliser la synt
 La notation ```:02X``` demande une longueur minimale de 2 caractères en majuscules (```:02x``` pour des minuscules). Si le nombre est trop petit et tient sur un seul caractère, un 0 se met à gauche.
 
 **À ton tour !** Affiche à l'écran l'écriture hexadécimale de 14 et 240, avec minimum 2 caractères en majuscules.
-<details open>
+<details>
   <summary>Solution possible</summary>
 
 ```
@@ -96,7 +96,7 @@ L'écriture hexadécimale de 240 est 0xf0, que je peux écrire aussi comme ça F
  Les nombres booléens retourne soit vrai ```True``` soit faux ```False``` en fonction de la commande testée. Pour vérifier l'égalité entre deux nombres, on utilise le symbole ```==```. 
 
  **À ton tour !** Vérifie si les équations suivantes sont justes : 2**6 + 7*8 = 40*3 et hex(18) = 0x13 
-<details open>
+<details>
   <summary>Solution</summary>
 
 ```
@@ -124,7 +124,7 @@ Quelques manipulations sont possibles sur les strings :
 Attention, il est impossible de remplacer directement un caractère par un autre dans une string. Par exemple, ```s = 'paysage', s[2]="t"``` ne fonctionnera pas. Il faut créer une nouvelle string : ```s[:2]+"t"+s[3:]``` retourne bien 'patsage'.
 
 **À ton tour !** Ecris une phrase de plus de 20 caractères. Isole les 10 premiers caractères. Vérifie si la lettre k appartient à ta phrase. Ajoute un z à la fin de ta phrase. Remplace le 7e caractère par un e (attention, on rappelle que l'espace compte comme un caractère et que la première lettre de ta phrase est à la position 0 !).
-<details open>
+<details>
   <summary>Solution</summary>
  
 ```
@@ -144,7 +144,7 @@ False
  </details>
 
  **À ton tour !** Peux-tu me dire le résultat de 'Batman[:3]+Batman[3:] ?
- <details open>
+ <details>
   <summary>Solution</summary>
  
 ```
@@ -156,7 +156,7 @@ False
  </details>
 
 **À ton tour !** Ecris la phrase "Le stage de seconde m'apporte des bases en python". Supprime le 15e caractère de cette phrase.
-<details open>
+<details>
   <summary>Solution</summary>
  
 ```
@@ -169,7 +169,7 @@ False
  </details>
 
  **À ton tour !** Ecris l'alphabet dans une string. Décale de 3 positions les lettres de l'alphabet. Le a devient un d, le b devient un e etc... Les 3 premières lettres abc iront à la fin, après le z.
- <details open>
+ <details>
   <summary>Solution</summary>
  
 ```
@@ -201,7 +201,7 @@ Quelques manipulations sont possibles sur les listes :
 
 **À ton tour !** Défini une liste L = [2,4,6,8,10]. Ajoute l'élément "exercice" à la liste. Vérifie que l'élément 6 appartient à la liste. Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. Insère l'élément "coucou" à la position 4 de la liste L. 
 
-<details open>
+<details>
   <summary>Solution</summary>
  
 ```
@@ -246,7 +246,7 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
  'dim'    : {"W":90,"L":180,"H":72}
 }['options'][1][-3]
 ```
- <details open>
+ <details>
   <summary>Solution</summary>
  
 ```
