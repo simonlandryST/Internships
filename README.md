@@ -95,14 +95,14 @@ L'écriture hexadécimale de 240 est 0xf0, que je peux écrire aussi comme ça F
 
  Les nombres booléens retourne soit vrai ```True``` soit faux ```False``` en fonction de la commande testée. Pour vérifier l'égalité entre deux nombres, on utilise le symbole ```==```. 
 
- **À ton tour !** Vérifie si les équations suivantes sont justes : 2**6 + 7*8 = 30*4 et hex(18) = 0x13 
+ **À ton tour !** Vérifie si les équations suivantes sont justes : 2**6 + 7*8 = 40*3 et hex(18) = 0x13 
 <details open>
   <summary>Solution</summary>
 
 ```
->>> print(2**6 + 7*8 == 30*4)
+>>> f'{2**6 + 7*8 == 40*3}'
 True
->>> print(hex(18) == '0x13')
+>>> f'{hex(18) == "0x13"}'
 False
 ``` 
 
@@ -114,9 +114,23 @@ Une string est une chaîne de caractères délimitée par des guillemets simples
 
 Quelques manipulations sont possibles sur les strings :
 
+* On définit une string par un nom à gauche d'un = : ```S = 'ceci est une string'```
 * Addition et multiplication : ```'test*4 + fin'``` donne 'test test test test fin'
 * Vérifier qu'un caractère est présent dans la string : ```'a' in 'on teste si la lettre est presente'``` retourne True
-* On calcule la longueur de la string : ```len('test longueur') retourne 13. L'espace compte comme un caractère.
-* Accéder à un élément de la string avec les crochets [] : ```Batman[0]+Tarzan[3]+``` retourn 'Bz'
-* 
+* On calcule la longueur de la string : ```len('test longueur')``` retourne 13. L'espace compte comme un caractère.
+* Accéder à un élément de la string avec les crochets [] : ```Batman[0]+Tarzan[3]+Mooglie[-1]``` retourn 'Bze'
+* Accéder à une sous-partie de la string en indiquant la position du début et la position de fin entre crochets : ```'kangourou'[2:6]``` retourne les caractères entre la position 2 et 5 (on remarque que ```:6]``` veut vraiment dire **avant** 6) soit 'ngou'. Si la position du début est omise, elle est égale par défaut à 0. Si la position de fin est omise, elle est égale au dernier caractère de la string par défaut.
+
+**À ton tour !** Ecris une phrase de plus de 20 caractères. Isole les 10 premiers caractères. Vérifie si la lettre k appartient à ta phrase. 
+<details open>
+  <summary>Solution</summary>
+```
+>>> S = "Ceci est une phrase de plus de vingts caractères."
+>>> S[:10]
+'Ceci est '
+>>> k in S
+False
+``` 
+ </details>
+
 
