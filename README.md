@@ -121,6 +121,8 @@ Quelques manipulations sont possibles sur les strings :
 * Accéder à un élément de la string avec les crochets [] : ```Batman[0]+Tarzan[3]+Mooglie[-1]``` retourn 'Bze'
 * Accéder à une sous-partie de la string en indiquant la position du début et la position de fin entre crochets : ```'kangourou'[2:6]``` retourne les caractères entre la position 2 et 5 (on remarque que ```:6]``` veut vraiment dire **avant** 6) soit 'ngou'. Si la position du début est omise, elle est égale par défaut à 0. Si la position de fin est omise, elle est égale au dernier caractère de la string par défaut.
 
+Attention, il est impossible de remplacer directement un caractère par un autre dans une string. Par exemple, ```s = 'paysage', s[2]="t"``` ne fonctionnera pas. Il faut créer une nouvelle string : ```s[:2]+"t"+s[3:]``` retourne bien 'patsage'.
+
 **À ton tour !** Ecris une phrase de plus de 20 caractères. Isole les 10 premiers caractères. Vérifie si la lettre k appartient à ta phrase. Ajoute un z à la fin de ta phrase. Remplace le 7e caractère par un e (attention, on rappelle que l'espace compte comme un caractère et que la première lettre de ta phrase est à la position 0 !).
 <details open>
   <summary>Solution</summary>
@@ -134,7 +136,7 @@ False
 >>> S = S + 'z'
 >>> S
 'Ceci est une phrase de plus de vingts caractèresz'
->>> S[6] = e
+>>> S = S[:6]+"e"+S[7:]
 >>> S
 'Ceci eet une phrase de plus de vingts caractèresz'
 ```
@@ -191,29 +193,32 @@ Quelques manipulations sont possibles sur les listes :
 * Vérifier qu'un caractère est présent dans la string : ```"juin" in L``` retourne True
 * Calcul de la longueur de la liste : ```len(L)``` retourne 4.
 * Accéder à un élément ou une sous-partie d'une liste fonctionne de la même manière que pour une string : ```L[0] = 10, L[-1] = 5, L[1:3] = ["juin",33], L[1:] = ["juin",33,5]```
+* On peut modifier un élément de la liste à n'importe quel index : si ```L[2] = 65``` alors ```L = [10,"juin",65,5]
+* On peut insérer un élément à l'index souhaité avec la fonction ```insert()``` : si ```L.insert(2,"insertion")``` alors ```L = [10,"juin","insertion",65,5]```.
+* On peut supprimer un élément à l'index souhaité avec la fonction ```pop()``` : si ```L.pop(3)``` alors ```L = [10,"juin","insertion",5]```.
 * Double-liste, une liste peut en contenir une autre : ```LL = [[0,1,2],[3,4,5],[6,7,8]]``` est une matrice carée de 3 lignes et 3 colonnes. Un élément de LL correspond à une des sous-listes de 3 éléments. Par exemple, ```LL[1]``` retourne la sous-liste ```[3,4,5]```.
 * Double accès : ```K = [["amelie","eliot"],[16,15]]```, l'élément ```K[0][1]``` est ```"eliot"```.
 
-**À ton tour !** Défini une liste L = [2,4,6,8,10]. Ajoute l'élément "exercice" à la liste. Remplace la 3e lettre de cet élément par un x. Vérifie que l'élément 6 appartient à la liste. Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. 
+**À ton tour !** Défini une liste L = [2,4,6,8,10]. Ajoute l'élément "exercice" à la liste. Vérifie que l'élément 6 appartient à la liste. Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. Insère l'élément "coucou" à la position 4 de la liste L. 
 
 <details open>
   <summary>Solution</summary>
  
 ```
 >>> L = [2,4,6,8,10]
->>> L = L + "exercice" ou L.append("exercice")
+>>> L = L + "exercice" #ou L.append("exercice")
 >>> L
 [2,4,6,8,10,"exercice"]
->>> L[-1][2] = "x"
->>> L
-[2,4,6,8,10,"exxrcice"]
 >>> 6 in L
 True
 >>> L = L[:1]+L[3:]
 >>> L
-[2,8,10,"exxrcice"]
+[2,8,10,"exercice"]
 >>> 6 in L
 False
+>>> L.insert(4,"coucou")
+>>> L
+[2,8,10,"exercice","coucou"]
 ```
 
  </details>
@@ -226,8 +231,11 @@ Quelques manipulations sont possibles sur les listes :
 
 * On définit une liste par un nom et un = : ```D = {'prenom':'Alice','age':16,'taille':165}```
 * On peut indexer un dictionnaire par une clé entre crochets : ```D['age']``` retourne 16
-* Il n'est pas possible d'accéder à plusieurs éléments d'un coup
-* Un dictionnaire peut contenir tous les types d'éléments : nombre, booléens, listes, strings, d'autres dictionnaires : ```D = {'prenom':'Alice','age':16,'taille':165,'voitures':["opel","audi"],'valise':{"L":100,"l":50,"P":40}}
+* Un dictionnaire peut contenir tous les types d'éléments : nombre, booléens, listes, strings, d'autres dictionnaires : ```J = {'prenom':'Alice','age':16,'taille':165,'voitures':["opel","audi"],'valise':{"L":100,"l":50,"P":40}}
+* On peut modifier un élément d'un label choisi : si ```D['taille']='170``` alors ```D = {'prenom':'Alice','age':16,'taille':170}```
+* On peut ajouter un label et son élément et modifier un élément en même temps : si ```D.update({'taille':"155",'cheveux':'blonds'})``` alors ```D = {'prenom':'Alice','age':16,'taille':155,'cheveux':'blonds'}```
+
+Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 
 **À ton tour !** Quel est le résultat de 
 
