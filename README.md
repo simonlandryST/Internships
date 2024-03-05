@@ -143,7 +143,7 @@ False
 
  </details>
 
- **À ton tour !** Peux-tu me dire le résultat de 'Batman[:3]+Batman[3:] ?
+ **À ton tour !** Peux-tu me dire le résultat de ```'Batman'[:3]+'Batman'[3:]``` ?
  <details>
   <summary>Solution</summary>
  
