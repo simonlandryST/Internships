@@ -110,7 +110,7 @@ False
 
 ## String
 
-Une string est une chaîne de caractères délimitée par des guillemets simples ```'``` ou doubles ```"````. On peut écrire un texte de plusieurs lignes en sautant des lignes avec le caractère ```\n```. 
+Une string est une chaîne de caractères délimitée par des guillemets simples ```'``` ou doubles ```"```. On peut écrire un texte de plusieurs lignes en sautant des lignes avec le caractère ```\n```. 
 
 Quelques manipulations sont possibles sur les strings :
 
