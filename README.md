@@ -265,20 +265,20 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 **À ton tour !** Quel est le résultat de 
 
 ```
-{'prix'   : 12,
- 'type'   : 'Table',
- 'options': ["rouge","bleu"],
- 'dim'    : {"W":90,"L":180,"H":72}
+{'prix'    : 12,
+ 'type'    : 'Table',
+ 'options' : ["rouge","bleu"],
+ 'dim'     : {"W":90,"L":180,"H":72}
 }['options'][1][-3]
 ```
  <details>
   <summary>Solution</summary>
  
 ```
->>> {'prix'   : 12,
-     'type'   : 'Table',
-     'options': ["rouge","bleu"],
-     'dim'    : {"W":90,"L":180,"H":72}
+>>> {'prix'    : 12,
+     'type'    : 'Table',
+     'options' : ["rouge","bleu"],
+     'dim'     : {"W":90,"L":180,"H":72}
     }['options'][1][-3]
 'l'
 ```
@@ -288,8 +288,8 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
  **À ton tour !** Soit le dictionnaire suivant : 
 
 ```
-dict = {'invites'            : ["Thomas","Ibrahima","Yanis","Morgane"],
-        'prixparpersonne'    : 120
+dict = {'invites'         : ["Thomas","Ibrahima","Yanis","Morgane"],
+        'prixparpersonne' : 120
        }
 ```
 
@@ -299,8 +299,8 @@ Quel est le nombre d'invités ? Quel est le prix d'une nuit ? Quel est le prix t
   <summary>Solution</summary>
  
 ```
->>> dict = {'invites'            : ["Thomas","Ibrahima","Yanis","Morgane"],
-            'prixparpersonne'    : 120
+>>> dict = {'invites'         : ["Thomas","Ibrahima","Yanis","Morgane"],
+            'prixparpersonne' : 120
            }
 >>> n = len(dict['invites'])
 >>> n
