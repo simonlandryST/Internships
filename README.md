@@ -124,13 +124,15 @@ Quelques manipulations sont possibles sur les strings :
 **À ton tour !** Ecris une phrase de plus de 20 caractères. Isole les 10 premiers caractères. Vérifie si la lettre k appartient à ta phrase. 
 <details open>
   <summary>Solution</summary>
+ 
 ```
 >>> S = "Ceci est une phrase de plus de vingts caractères."
 >>> S[:10]
 'Ceci est '
 >>> k in S
 False
-``` 
+```
+
  </details>
 
 
