@@ -25,10 +25,10 @@ Lancer un interpréteur _python_ :
 Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfixe :
 
 * Base 10 : rien devant
-* Base 2 : 0b
-* Base 16 : 0x
+* Base 2 : ```0b```
+* Base 16 : ```0x```
 
-**À ton tour !** Utilise la console pour voir les valeurs des nombres suivants : 0b10101010, 0xaa, 0xAA, 170
+**À ton tour !** Utilise la console pour voir les valeurs des nombres suivants : ```0b10101010, 0xaa, 0xAA, 170```
 <details>
   <summary>Solution</summary>
  
@@ -74,7 +74,7 @@ On peut coder les différentes opération mathématiques :
 
 Le même nombre peut être affiché à l'écran sous plusieurs formats en fonction de la base souhaitée. Les fonctions python utilisées sont ```hex()``` pour afficher en base hexadécimale et ```bin()``` pour afficher en base binaire. 
 
-Une manière d'afficher un texte et un nombre à l'écran est d'utiliser la syntaxe des *f-strings* encadré par des guillemets simple ```'``` ou doubles ```"``` et le nombre entre accolades ```{ }```. Par exemple :
+Une manière d'afficher un texte et un nombre à l'écran est d'utiliser la syntaxe des *f-strings* encadré par des guillemets simple ```'``` ou doubles ```"``` et le nombre entre accolades ```{}```. Par exemple :
 
 ```
 >>> f'Ceci est une f-string, le nombre est {30/2}.'
