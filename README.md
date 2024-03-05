@@ -234,11 +234,23 @@ Quelques manipulations sont possibles sur les listes :
 ```
 {'prix'   : 12,
  'type'   : 'Table',
- 'options': ["red","blue"],
+ 'options': ["rouge","bleu"],
  'dim'    : {"W":90,"L":180,"H":72}
-}['options'][1][-2]
+}['options'][1][-3]
+```
+ <details open>
+  <summary>Solution</summary>
+ 
+```
+>>> {'prix'   : 12,
+ 'type'   : 'Table',
+ 'options': ["rouge","bleu"],
+ 'dim'    : {"W":90,"L":180,"H":72}
+}['options'][1][-3]
+'l'
 ```
 
+ </details>
  
 
  
