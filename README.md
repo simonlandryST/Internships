@@ -121,16 +121,23 @@ Quelques manipulations sont possibles sur les strings :
 * Accéder à un élément de la string avec les crochets [] : ```Batman[0]+Tarzan[3]+Mooglie[-1]``` retourn 'Bze'
 * Accéder à une sous-partie de la string en indiquant la position du début et la position de fin entre crochets : ```'kangourou'[2:6]``` retourne les caractères entre la position 2 et 5 (on remarque que ```:6]``` veut vraiment dire **avant** 6) soit 'ngou'. Si la position du début est omise, elle est égale par défaut à 0. Si la position de fin est omise, elle est égale au dernier caractère de la string par défaut.
 
-**À ton tour !** Ecris une phrase de plus de 20 caractères. Isole les 10 premiers caractères. Vérifie si la lettre k appartient à ta phrase. 
+**À ton tour !** Ecris une phrase de plus de 20 caractères. Isole les 10 premiers caractères. Vérifie si la lettre k appartient à ta phrase. Ajoute un z à la fin de ta phrase. Remplace le 7e caractère par un e (attention, on rappelle que l'espace compte comme un caractère et que la première lettre de ta phrase est à la position 0 !).
 <details open>
   <summary>Solution</summary>
  
 ```
->>> S = "Ceci est une phrase de plus de vingts caractères."
+>>> S = 'Ceci est une phrase de plus de vingts caractères.'
 >>> S[:10]
 'Ceci est '
 >>> k in S
 False
+>>> S = S + 'z'
+>>> S
+'Ceci est une phrase de plus de vingts caractèresz.'
+>>> S[6] = e
+>>> S
+'Ceci eet une phrase de plus de vingts caractères.'
+
 ```
 
  </details>
