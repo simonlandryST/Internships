@@ -110,14 +110,14 @@ False
 
 ## Strings
 
-Une string est une chaîne de caractères délimitée par des guillemets simples ' ou doubles ". On peut écrire un texte de plusieurs lignes en sautant des lignes avec le caractère ```\n```. 
+Une string est une chaîne de caractères délimitée par des guillemets simples ```'``` ou doubles ```"````. On peut écrire un texte de plusieurs lignes en sautant des lignes avec le caractère ```\n```. 
 
 Quelques manipulations sont possibles sur les strings :
 
 * On définit une string par un nom à gauche d'un = : ```S = 'ceci est une string'```
 * Addition et multiplication : ```'test*4 + fin'``` donne 'test test test test fin'
 * Vérifier qu'un caractère est présent dans la string : ```'a' in 'on teste si la lettre est presente'``` retourne True
-* On calcule la longueur de la string : ```len('test longueur')``` retourne 13. L'espace compte comme un caractère.
+* Calcul de la longueur de la string : ```len('test longueur')``` retourne 13. L'espace compte comme un caractère.
 * Accéder à un élément de la string avec les crochets [] : ```Batman[0]+Tarzan[3]+Mooglie[-1]``` retourn 'Bze'
 * Accéder à une sous-partie de la string en indiquant la position du début et la position de fin entre crochets : ```'kangourou'[2:6]``` retourne les caractères entre la position 2 et 5 (on remarque que ```:6]``` veut vraiment dire **avant** 6) soit 'ngou'. Si la position du début est omise, elle est égale par défaut à 0. Si la position de fin est omise, elle est égale au dernier caractère de la string par défaut.
 
@@ -179,6 +179,44 @@ False
 
  </details>
 
+ ## Lists
+
+Une liste est une série d'éléments séparés par une virgule et enfermés par des crochets ```[]```. Par exemple, la liste ```["cryptologie", 4, "Paris", 12.4]``` contient 4 éléments. 
+
+Quelques manipulations sont possibles sur les listes :
+
+* On définit une liste par un nom et un = : ```L = [10,"juin",33,5]```
+* Addition et multiplication : ```["oui"]*3+["non"]*2 = ["oui", "oui", "oui", "non", "non"]```.
+* La fonction ```append()``` permet aussi d'ajouter un élément en fin de liste : ```L.append("octobre")``` retourne la liste ```[10,"juin",33,5,"octobre]```.
+* Vérifier qu'un caractère est présent dans la string : ```"juin" in L``` retourne True
+* Calcul de la longueur de la liste : ```len(L)``` retourne 4.
+* Accéder à un élément ou une sous-partie d'une liste fonctionne de la même manière que pour une string : ```L[0] = 10, L[-1] = 5, L[1:3] = ["juin",33], L[1:] = ["juin",33,5]```
+* Double-liste, une liste peut en contenir une autre : ```LL = [[0,1,2],[3,4,5],[6,7,8]]``` est une matrice carée de 3 lignes et 3 colonnes. Un élément de LL correspond à une des sous-listes de 3 éléments. Par exemple, ```LL[1]``` retourne la sous-liste ```[3,4,5]```.
+* Double accès : ```K = [["amelie","eliot"],[16,15]]```, l'élément ```K[0][1]``` est ```"eliot"```.
+
+**À ton tour !** Défini une liste L = [2,4,6,8,10]. Ajoute l'élément "exercice" à la liste. Remplace la 3e lettre de cet élément par un x. Vérfie que l'élément 6 appartient à la liste. Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. 
+
+<details open>
+  <summary>Solution</summary>
+ 
+```
+>>> L = [2,4,6,8,10]
+>>> L = L + "exercice" ou L.append("exercice")
+>>> L
+[2,4,6,8,10,"exercice"]
+>>> L[-1][2] = "x"
+>>> L
+[2,4,6,8,10,"exxrcice"]
+>>> 6 in L
+True
+>>> L = L[:1]+L[3:]
+>>> L
+[2,8,10,"exxrcice"]
+>>> 6 in L
+False
+```
+
+ </details>
  
 
 
