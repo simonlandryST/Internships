@@ -29,7 +29,7 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
 * Base 16 : 0x
 
 **À ton tour !** Utilise la console pour voir les valeurs des nombres suivants : 0b10101010, 0xaa, 0xAA, 170
-<details open>
+<details>
   <summary>Solution</summary>
  
 ```
