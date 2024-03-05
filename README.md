@@ -201,7 +201,7 @@ Quelques manipulations sont possibles sur les listes :
 * Vérifier qu'un caractère est présent dans la string : ```"juin" in L``` retourne True
 * Calcul de la longueur de la liste : ```len(L)``` retourne 4.
 * Accéder à un élément ou une sous-partie d'une liste fonctionne de la même manière que pour une string : ```L[0] = 10, L[-1] = 5, L[1:3] = ["juin",33], L[1:] = ["juin",33,5]```
-* On peut modifier un élément de la liste à n'importe quel index : si ```L[2] = 65``` alors ```L = [10,"juin",65,5]
+* On peut modifier un élément de la liste à n'importe quel index : si ```L[2] = 65``` alors ```L = [10,"juin",65,5]```
 * On peut insérer un élément à l'index souhaité avec la fonction ```insert()``` : si ```L.insert(2,"insertion")``` alors ```L = [10,"juin","insertion",65,5]```.
 * On peut supprimer un élément à l'index souhaité avec la fonction ```pop()``` : si ```L.pop(3)``` alors ```L = [10,"juin","insertion",5]```.
 * Double-liste, une liste peut en contenir une autre : ```LL = [[0,1,2],[3,4,5],[6,7,8]]``` est une matrice carée de 3 lignes et 3 colonnes. Un élément de LL correspond à une des sous-listes de 3 éléments. Par exemple, ```LL[1]``` retourne la sous-liste ```[3,4,5]```.
