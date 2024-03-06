@@ -524,11 +524,23 @@ e
 
 **À ton tour !** Parcours les éléments de la liste ```L = [1,3,2,5]``` en utilisant le mot clé ```range()```.
 <details>
+  <summary>Indice 1</summary>
+
+  Tu dois pour cela connaître la taille de ta liste. Le calcul se fait soit à la main, soit en utilisant la fonction ```len()``` vue précédemment.
+  ```
+</details>
+<details>
+  <summary>Indice 2</summary>
+
+  Tu dois savoir comment accéder à un élément de ta liste. 
+  ```
+</details>
+<details>
   <summary>Solution</summary>
  
 ```
 >>> L = [1,3,2,5]
->>> for i in range(4): print(L[i])
+>>> for i in range(len(L)): print(L[i])
 1
 3
 2
@@ -558,7 +570,7 @@ def fct(x,y):
 9
 ```
 
-**À ton tour !** Soit une liste d'entiers de ton choix. Code une fonction qui calcule la somme des entiers de cette liste en utilisant une boucle ```for i in range()```.
+**À ton tour !** Soit une liste d'entiers de ton choix. Code une fonction qui calcule la somme des entiers de cette liste en utilisant une boucle ```for i in range()```. 
 <details>
   <summary>Solution</summary>
  
