@@ -574,18 +574,18 @@ def fct(x,y):
 
 ```
 def affiche(chaine):
-  for i in range(len(chaine):
+  for i in range(len(chaine)):
+    print(f'i = {i}')
     print(chaine[i])
 
->>> s = "bonjour"
+>>> s = "top"
 >>> affiche(s)
-b
+i = 0
+t
+i = 1
 o
-n
-j
-o
-u
-r
+i = 2
+p
 ```
 
 **À ton tour !** Soit une liste d'entiers de ton choix. Code une fonction qui calcule la somme des entiers de cette liste en utilisant une boucle ```for i in range()```. 
