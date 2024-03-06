@@ -106,7 +106,7 @@ L'écriture hexadécimale de 240 est 0xf0, que je peux écrire en majuscules com
   <summary>Solution</summary>
 
 ```
->>> f'{2**6 + 7*8 == 40*3}'
+>>> f'{2**6 + 56 == 120}'
 True
 >>> f'{hex(18) == "0x13"}'
 False
@@ -207,23 +207,54 @@ Quelques manipulations sont possibles sur les listes :
 * Double-liste, une liste peut en contenir une autre : ```LL = [[0,1,2],[3,4,5],[6,7,8]]``` est une matrice carée de 3 lignes et 3 colonnes. Un élément de LL correspond à une des sous-listes de 3 éléments. Par exemple, ```LL[1]``` retourne la sous-liste ```[3,4,5]```.
 * Double accès : ```K = [["amelie","eliot"],[16,15]]```, l'élément ```K[0][1]``` est ```"eliot"```.
 
-**À ton tour !** Soit une liste L = [2,4,6,8,10]. Ajoute l'élément "exercice" à la liste. Vérifie que l'élément 6 appartient à la liste. Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. Insère l'élément "coucou" à la position 4 de la liste L. 
+**À ton tour !** Soit une liste L = [2,4,6,8,10]. 
+Q1/ Ajoute l'élément "exercice" à la liste. 
 
 <details>
-  <summary>Solution</summary>
+  <summary>Solution Q1</summary>
  
 ```
 >>> L = [2,4,6,8,10]
 >>> L = L + "exercice" #ou L.append("exercice")
 >>> L
 [2,4,6,8,10,"exercice"]
+```
+
+ </details>
+
+ Q2/ Vérifie que l'élément 6 appartient à la liste.
+ 
+ <details>
+  <summary>Solution Q1</summary>
+
+```
 >>> 6 in L
 True
+```
+
+ </details>
+
+Q3/ Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. 
+
+ <details>
+  <summary>Solution Q1</summary>
+
+```
 >>> L = L[:1]+L[3:] #ou L.pop(1) et L.pop(2)
 >>> L
 [2,8,10,"exercice"]
 >>> 6 in L
 False
+```
+
+ </details>
+
+Q4/ Insère l'élément "coucou" à la position 4 de la liste L. 
+
+<details>
+  <summary>Solution Q1</summary>
+
+```
 >>> L.insert(4,"coucou")
 >>> L
 [2,8,10,"exercice","coucou"]
