@@ -520,11 +520,11 @@ e
   * Si un seul argument est donné : ```range(a)``` retourne les entiers de l'intervalle ```[0,a[```
   * Si 2 arguments sont donnés : ```range(a,b)``` retourne les entiers de l'intervalle ```[a,b[```
   * Si 3 arguments sont donnés : ```range(a,b,c)``` retourne les entiers de l'intervalle ```[a,b[``` avec un écart de c entre chaque entier
-* Tu peux parcourir les éléments d'une string ou d'une liste en utilisant le mot clé ```range()```.  
+* Tu peux parcourir les éléments d'un type de données (liste, string, dictionnaire) en utilisant le mot clé ```range()```.  
 
 **À ton tour !** Parcours les éléments de la liste ```L = [1,3,2,5]``` en utilisant le mot clé ```range()```.
 <details>
-  <summary>Résultat</summary>
+  <summary>Solution</summary>
  
 ```
 >>> L = [1,3,2,5]
@@ -536,4 +536,46 @@ e
 ```
 
 </details>
+
+## Fonction
+
+Une fonction permet de définir un bout de code qui peut être utilisé plusieurs fois. Elle est introduite par le mot clé ```def```, un nom, des arguments (optionnels), le corps du code et le mot clé ```return``` (ou ```print```) pour retourner (ou pour afficher) une valeur. Le corps du code doit être *indenté* de la définition de la fonction. Plusieurs exemples de fonctions sont donnés ci-dessous. 
+
+```
+def f(prenom):
+  message = f'Hello {name}!'
+  print(message)
+
+>>> f("Morgane")
+Hello Morgane !
+```
+
+```
+def fct(x,y):
+  return 3*x+y
+
+>>> fct(2,3)
+9
+```
+
+**À ton tour !** Soit une liste d'entiers de ton choix. Code une fonction qui calcule la somme des entiers de cette liste en utilisant une boucle ```for i in range()```.
+<details>
+  <summary>Solution</summary>
+ 
+```
+def somme(liste):
+  somme = 0
+  for i in range(len(liste)):
+    somme = somme + liste[i]
+  return somme
+
+>>> L = [2,33,50,26]
+>>> somme(L)
+111
+```
+
+</details>
+
+
+
 
