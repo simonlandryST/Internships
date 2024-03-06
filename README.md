@@ -517,8 +517,8 @@ e
 </details>
 
 * Tu peux aussi utiliser le mot clé ```range()``` pour parcourir des entiers :
-  ** Si un seul argument est donné : ```range(a)``` retourne les entiers de l'intervalle ```[0,a[```
-  ** Si 2 arguments sont donnés : ```range(a,b)``` retourne les entiers de l'intervalle ```[a,b[```
-  ** Si 3 arguments sont donnés : ```range(a,b,c)``` retourne les entiers de l'intervalle ```[a,b[``` avec un écart de c entre chaque entier
+  * Si un seul argument est donné : ```range(a)``` retourne les entiers de l'intervalle ```[0,a[```
+  * Si 2 arguments sont donnés : ```range(a,b)``` retourne les entiers de l'intervalle ```[a,b[```
+  * Si 3 arguments sont donnés : ```range(a,b,c)``` retourne les entiers de l'intervalle ```[a,b[``` avec un écart de c entre chaque entier
 
 
