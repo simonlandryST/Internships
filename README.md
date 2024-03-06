@@ -520,5 +520,20 @@ e
   * Si un seul argument est donné : ```range(a)``` retourne les entiers de l'intervalle ```[0,a[```
   * Si 2 arguments sont donnés : ```range(a,b)``` retourne les entiers de l'intervalle ```[a,b[```
   * Si 3 arguments sont donnés : ```range(a,b,c)``` retourne les entiers de l'intervalle ```[a,b[``` avec un écart de c entre chaque entier
+* Tu peux parcourir les éléments d'une string ou d'une liste en utilisant le mot clé ```range()```.  
 
+**À ton tour !** Parcours les éléments de la liste ```L = [1,3,2,5]``` en utilisant le mot clé ```range()```.
+<details>
+  <summary>Résultat</summary>
+ 
+```
+>>> L = [1,3,2,5]
+>>> for i in range(4): print(L[i])
+1
+3
+2
+5
+```
+
+</details>
 
