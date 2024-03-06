@@ -54,9 +54,9 @@ On peut coder les différentes opération mathématiques :
 * Puissance : 3**2
 * Division simple : 5/2
 * Division entière : 5//2
-* Modulo : 30%4
+* Modulo : le résultat de a%b est le reste de la division euclidienne de a par b. 
 
- **À ton tour !** Calcule la moyenne de 127, 45 et 72.6
+ **À ton tour !** Calcule la moyenne de 127, 45 et 72.6.
 
 <details>
   <summary>Solution</summary>
@@ -66,6 +66,29 @@ On peut coder les différentes opération mathématiques :
 81.5333333333
 >>> (127+45+72.6)//3
 81.0
+```
+
+ </details>
+
+ **À ton tour !** Calcule les modulos suivants : 12%2, 16%3, 30%4, 43%4, 30%26, 5%2
+
+ <details>
+  <summary>Solution</summary>
+
+```
+>>> 12%2
+0 #12 = 2*6 + 0
+>>> 16%3
+1 #16 = 3*5 + 1
+>>> 30%4
+2 #30 = 4*7 + 2
+>>> 43%4
+3 #43 = 4*10 + 3
+>>>
+30%26
+4 #30 = 26*1 + 4
+>>> 5%2
+5 #5 = 2*0 + 5
 ```
 
  </details>
