@@ -572,6 +572,22 @@ def fct(x,y):
 9
 ```
 
+```
+def affiche(chaine):
+  for i in range(len(chaine):
+    print(chaine[i])
+
+>>> s = "bonjour"
+>>> affiche(s)
+b
+o
+n
+j
+o
+u
+r
+```
+
 **À ton tour !** Soit une liste d'entiers de ton choix. Code une fonction qui calcule la somme des entiers de cette liste en utilisant une boucle ```for i in range()```. 
 <details>
   <summary>Solution</summary>
