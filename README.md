@@ -237,8 +237,6 @@ Quelques manipulations sont possibles sur les listes :
 * On peut modifier un élément de la liste à n'importe quel index : si ```L[2] = 65``` alors ```L = [10,"juin",65,5]```
 * On peut insérer un élément à l'index souhaité avec la fonction ```insert()``` : si ```L.insert(2,"insertion")``` alors ```L = [10,"juin","insertion",65,5]```.
 * On peut supprimer un élément à l'index souhaité avec la fonction ```pop()``` : si ```L.pop(3)``` alors ```L = [10,"juin","insertion",5]```.
-* Double-liste, une liste peut en contenir une autre : ```LL = [[0,1,2],[3,4,5],[6,7,8]]``` est une matrice carée de 3 lignes et 3 colonnes. Un élément de LL correspond à une des sous-listes de 3 éléments. Par exemple, ```LL[1]``` retourne la sous-liste ```[3,4,5]```.
-* Double accès : ```K = [["amelie","eliot"],[16,15]]```, l'élément ```K[0][1]``` est ```"eliot"```.
 
 **À ton tour !** Soit une liste L = [2,4,6,8,10]. 
 
@@ -292,23 +290,6 @@ Q4/ Insère l'élément "coucou" à la position 4 de la liste L.
 >>> L.insert(4,"coucou")
 >>> L
 [2,8,10,"exercice","coucou"]
-```
-
- </details>
-
-**À ton tour !** Soit une liste M = [[3,5],[7,9],[11,13],[15,17]]. Remplace le 2e élément de cette liste par l'élément "test". Remplace le nombre 15 par 19.
-
-<details>
-  <summary>Solution</summary>
- 
-```
->>> M = [[3,5],[7,9],[11,13],[15,17]]
->>> M[1] = "test"
->>> M
-[[3,5],"test",[11,13],[15,17]]
->>> M[3][0] = 19
->>> M
-[[3,5],"test",[11,13],[19,17]]
 ```
 
  </details>
@@ -380,9 +361,9 @@ dict = {'invites'         : ["Thomas","Ibrahima","Yanis","Morgane"],
        }
 ```
 
-Quel est le nombre d'invités ? Quel est le prix d'une nuit ? Quel est le prix total ? 
+Q1/ Quel est le nombre d'invités ? 
 
- <details>
+<details>
   <summary>Solution</summary>
  
 ```
@@ -392,9 +373,29 @@ Quel est le nombre d'invités ? Quel est le prix d'une nuit ? Quel est le prix t
 >>> n = len(dict['invites'])
 >>> n
 4
+```
+
+ </details>
+ 
+Q2/ Quel est le prix d'une nuit ? 
+
+<details>
+  <summary>Solution</summary>
+ 
+```
 >>> p = dict['prixparpersonne']
 >>> p
 120
+```
+
+ </details>
+ 
+Q3/ Quel est le prix total ? 
+
+<details>
+  <summary>Solution</summary>
+ 
+```
 >>> n*p
 >>> 480
 ```
