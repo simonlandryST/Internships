@@ -636,8 +636,8 @@ else                                    : fruit = "orange"
   <summary>Solution</summary>
  
 ```
-def f(L,mot):
-  if mot in L:
+def f(L,element):
+  if element in L:
     return True
   else:
     return False
