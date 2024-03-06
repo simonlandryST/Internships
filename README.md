@@ -528,13 +528,17 @@ e
 
   Tu dois pour cela connaître la taille de ta liste. Le calcul se fait soit à la main, soit en utilisant la fonction ```len()``` vue précédemment.
   ```
+
 </details>
+
 <details>
   <summary>Indice 2</summary>
 
   Tu dois savoir comment accéder à un élément de ta liste. 
   ```
+
 </details>
+
 <details>
   <summary>Solution</summary>
  
