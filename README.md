@@ -129,7 +129,10 @@ Quelques manipulations sont possibles sur les strings :
 
 Attention, il est impossible de remplacer directement un caractère par un autre dans une string. Par exemple, ```s = 'paysage', s[2]="t"``` ne fonctionnera pas. Il faut créer une nouvelle string : ```s[:2]+"t"+s[3:]``` retourne bien 'patsage'.
 
-**À ton tour !** Ecris une phrase de plus de 20 caractères. Isole les 10 premiers caractères. Vérifie si la lettre k appartient à ta phrase. Ajoute un z à la fin de ta phrase. Remplace le 7e caractère par un e (attention, on rappelle que l'espace compte comme un caractère et que la première lettre de ta phrase est à la position 0 !).
+**À ton tour !** Ecris une phrase de plus de 20 caractères. 
+
+Q1/ Isole les 10 premiers caractères. 
+
 <details>
   <summary>Solution</summary>
  
@@ -137,11 +140,41 @@ Attention, il est impossible de remplacer directement un caractère par un autre
 >>> S = 'Ceci est une phrase de plus de vingts caractères'
 >>> S[:10]
 'Ceci est '
+```
+
+ </details>
+ 
+Q2/ Vérifie si la lettre k appartient à ta phrase. 
+
+<details>
+  <summary>Solution</summary>
+ 
+```
 >>> k in S
 False
+```
+
+ </details>
+
+Q3/ Ajoute un z à la fin de ta phrase. 
+
+<details>
+  <summary>Solution</summary>
+ 
+```
 >>> S = S + 'z'
 >>> S
 'Ceci est une phrase de plus de vingts caractèresz'
+```
+
+ </details>
+
+Q4/ Remplace le 7e caractère par un e (attention, on rappelle que l'espace compte comme un caractère et que la première lettre de ta phrase est à la position 0 !).
+
+<details>
+  <summary>Solution</summary>
+ 
+```
 >>> S = S[:6]+"e"+S[7:]
 >>> S
 'Ceci eet une phrase de plus de vingts caractèresz'
@@ -208,10 +241,11 @@ Quelques manipulations sont possibles sur les listes :
 * Double accès : ```K = [["amelie","eliot"],[16,15]]```, l'élément ```K[0][1]``` est ```"eliot"```.
 
 **À ton tour !** Soit une liste L = [2,4,6,8,10]. 
+
 Q1/ Ajoute l'élément "exercice" à la liste. 
 
 <details>
-  <summary>Solution Q1</summary>
+  <summary>Solution</summary>
  
 ```
 >>> L = [2,4,6,8,10]
@@ -225,7 +259,7 @@ Q1/ Ajoute l'élément "exercice" à la liste.
  Q2/ Vérifie que l'élément 6 appartient à la liste.
  
  <details>
-  <summary>Solution Q1</summary>
+  <summary>Solution</summary>
 
 ```
 >>> 6 in L
@@ -237,7 +271,7 @@ True
 Q3/ Supprime les élements 4 et 6 de la liste. Vérifie de nouveau que l'élément 6 n'appartiennent plus à la liste. 
 
  <details>
-  <summary>Solution Q1</summary>
+  <summary>Solution</summary>
 
 ```
 >>> L = L[:1]+L[3:] #ou L.pop(1) et L.pop(2)
@@ -252,7 +286,7 @@ False
 Q4/ Insère l'élément "coucou" à la position 4 de la liste L. 
 
 <details>
-  <summary>Solution Q1</summary>
+  <summary>Solution</summary>
 
 ```
 >>> L.insert(4,"coucou")
