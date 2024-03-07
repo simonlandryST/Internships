@@ -19,7 +19,7 @@ Lancer un interpréteur _python_ :
 
 * [Prérequis mathématiques](./prerequismaths.md)
 * [Affichage](./affichage.md)
-* [Type de données](./typededonees.md)
+* [Type de Données](./typededonnees.md)
 
 
  ### Variables
