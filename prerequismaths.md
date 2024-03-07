@@ -1,4 +1,4 @@
-[back](./README.md)
+<[back](./README.md) - [accueil](./README.md) - [next](./affichage.md)>
 
 # Prérequis Mathématiques
 
@@ -85,3 +85,5 @@ On peut coder les différentes opération mathématiques :
 * 5 = 2*0 + 5
 
  </details>
+
+ <[back](./README.md) - [accueil](./README.md) - [next](./affichage.md)>
