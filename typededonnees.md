@@ -240,12 +240,10 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 
 * [Prérequis mathématiques](./prerequismaths.md)
 * [Affichage](./affichage.md)
-* [$${\color{blue}Type de Données}$$](./typededonnees.md)
 * [Variables](./variables.md)
 * [Boucle For](./boucles.md)
 * [Fonctions](./fonctions.md)
 * [Conditions](./conditions/md)
 
-$${\color{blue}Type de Données}$$
 
 <[back](./affichage.md) - [accueil](./README.md) - [next](./variables.md)>
