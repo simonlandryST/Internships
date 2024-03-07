@@ -1,13 +1,5 @@
 <[back](./README.md) - [accueil](./README.md) - [next](./affichage.md)>
 
-* [Prérequis mathématiques](./prerequismaths.md)
-* [Affichage](./affichage.md)
-* [Type de Données](./typededonnees.md)
-* [Variables](./variables.md)
-* [Boucle For](./boucles.md)
-* [Fonctions](./fonctions.md)
-* [Conditions](./conditions/md)
-
 # Prérequis Mathématiques
 
 ## Bases
@@ -93,5 +85,12 @@ On peut coder les différentes opération mathématiques :
 * 5 = 2*0 + 5
 
  </details>
+
+* [Affichage](./affichage.md)
+* [Type de Données](./typededonnees.md)
+* [Variables](./variables.md)
+* [Boucle For](./boucles.md)
+* [Fonctions](./fonctions.md)
+* [Conditions](./conditions/md)
 
  <[back](./README.md) - [accueil](./README.md) - [next](./affichage.md)>
