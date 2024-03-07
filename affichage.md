@@ -26,5 +26,14 @@ L'écriture hexadécimale de 240 est 0xf0, que je peux écrire en majuscules com
 ``` 
 
  </details>
+
+# Autres cours
+
+* [Prérequis mathématiques](./prerequismaths.md)
+* [Type de Données](./typededonnees.md)
+* [Variables](./variables.md)
+* [Boucle For](./boucles.md)
+* [Fonctions](./fonctions.md)
+* [Conditions](./conditions/md)
  
 <[back](./prerequismaths.md) - [accueil](./README.md) - [next](./typededonnees.md)>
