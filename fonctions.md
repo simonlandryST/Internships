@@ -55,5 +55,14 @@ def somme(liste):
 
 </details>
 
+ # Autres cours
+
+* [Prérequis mathématiques](./prerequismaths.md)
+* [Affichage](./affichage.md)
+* [Type de Données](./typededonnees.md)
+* [Variables](./variables.md)
+* [Boucle For](./boucles.md)
+* [Conditions](./conditions/md)
+
 <[back](./boucles.md) - [accueil](./README.md) - [next](./conditions.md)>
 
