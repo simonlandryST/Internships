@@ -240,7 +240,7 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 
 * [Prérequis mathématiques](./prerequismaths.md)
 * [Affichage](./affichage.md)
-* [Type de Données](./typededonnees.md)[color=#9B9B9B]
+* [Type de Données[color=#9B9B9B]](./typededonnees.md)
 * [Variables](./variables.md)
 * [Boucle For](./boucles.md)
 * [Fonctions](./fonctions.md)
