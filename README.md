@@ -15,6 +15,8 @@ Lancer un interpréteur _python_ :
 * Installer [Spyder](https://www.spyder-ide.org/)
 * Sinon, lancer une console dans le navigateur : [console](https://pyodide.org/en/stable/console.html)
 
+1. link:./prerequismaths.md[Prérequis mathématiques]
+
 ### Bases
 * Base 10 : système décimal 0, 1, 2, 3, ..., 9, 10. 
 * Base 2 : système binaire basé sur des bits, 0 et 1. Pour écrire un nombre, on compte en puissances de 2 de droite à gauche.
