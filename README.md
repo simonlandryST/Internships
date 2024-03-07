@@ -126,7 +126,7 @@ L'écriture hexadécimale de 240 est 0xf0, que je peux écrire en majuscules com
 
  </details>
 
- ## Nombres Booléens
+ ### Nombres Booléens
 
  Les nombres booléens retourne soit vrai ```True``` soit faux ```False``` en fonction de la commande testée. Pour vérifier l'égalité entre deux nombres, on utilise le symbole ```==```. 
 
@@ -143,7 +143,7 @@ False
 
  </details>
 
-## String
+### String
 
 Une string est une chaîne de caractères délimitée par des guillemets simples ```'``` ou doubles ```"```. On peut écrire un texte de plusieurs lignes en sautant des lignes avec le caractère ```\n```. 
 
@@ -251,7 +251,7 @@ Q4/ Remplace le 7e caractère par un e (attention, on rappelle que l'espace comp
 
  </details>
 
- ## List
+ ### List
 
 Une liste est une série d'éléments séparés par une virgule et enfermés par des crochets ```[]```. Par exemple, la liste ```["cryptologie", 4, "Paris", 12.4]``` contient 4 éléments. 
 
@@ -323,7 +323,7 @@ Q4/ Insère l'élément "coucou" à la position 4 de la liste L.
 
  </details>
  
- ## Dictionnary
+ ### Dictionnary
 
 Un dictionnaire permet de labéliser des éléments, enfermés par des accolades ```{}```. 
 
@@ -360,7 +360,7 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 
  </details>
 
- ## Variables
+ ### Variables
 
 Une variable est utilisée pour donner un nom à un type de donnée : une string, une liste, un dictionnaire, une valeur. Par exemple, quand on définit la liste ```L = [1,2,3]```, L est une variable de type list. 
 
@@ -431,7 +431,7 @@ Q3/ Quel est le prix total ?
 
  </details>
 
- ## Boucles
+ ### Boucles
 
  La boucle ```for``` permet de parcourir des éléments d'un type de donnée : 
 
@@ -551,7 +551,7 @@ e
 
 </details>
 
-## Fonction
+### Fonction
 
 Une fonction permet de définir un bout de code qui peut être utilisé plusieurs fois. Elle est introduite par le mot clé ```def```, un nom, des arguments (optionnels), le corps du code et le mot clé ```return``` (ou ```print```) pour retourner (ou pour afficher) une valeur. Le corps du code doit être *indenté* de la définition de la fonction. Plusieurs exemples de fonctions sont donnés ci-dessous. 
 
@@ -606,7 +606,7 @@ def somme(liste):
 
 </details>
 
-## Conditions
+### Conditions
 
 Un code peut être testé sous conditions avec les mots clés ```if, elif, else```. Par exemple, dans le code ci-dessous :
 
