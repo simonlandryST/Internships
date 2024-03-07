@@ -1,4 +1,4 @@
-<[back](./boucles.md) - [accueil](./README.md) - [next](./fonctions.md)>
+<[back](./variables.md) - [accueil](./README.md) - [next](./fonctions.md)>
 
 # Boucle For
 
@@ -120,5 +120,5 @@ e
 
 </details>
 
-<[back](./boucles.md) - [accueil](./README.md) - [next](./fonctions.md)>
+<[back](./variables.md) - [accueil](./README.md) - [next](./fonctions.md)>
 
