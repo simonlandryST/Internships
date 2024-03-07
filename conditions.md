@@ -1,3 +1,5 @@
+<[back](./fonctions.md) - [accueil](./README.md)>
+
 # Conditions
 
 Un code peut être testé sous conditions avec les mots clés ```if, elif, else```. Par exemple, dans le code ci-dessous :
@@ -42,3 +44,5 @@ False
 ```
 
 </details>
+
+<[back](./fonctions.md) - [accueil](./README.md)>
