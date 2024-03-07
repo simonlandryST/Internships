@@ -86,6 +86,8 @@ On peut coder les différentes opération mathématiques :
 
  </details>
 
+# Autres cours
+
 * [Affichage](./affichage.md)
 * [Type de Données](./typededonnees.md)
 * [Variables](./variables.md)
