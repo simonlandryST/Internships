@@ -1,3 +1,5 @@
+<[back](./prerequismaths.md) - [accueil](./README.md) - [next](./typededonnees.md)>
+
 # Affichage à l'écran
 
 Le même nombre peut être affiché à l'écran sous plusieurs formats en fonction de la base souhaitée. Les fonctions python utilisées sont ```hex()``` pour afficher en base hexadécimale et ```bin()``` pour afficher en base binaire. 
@@ -24,3 +26,5 @@ L'écriture hexadécimale de 240 est 0xf0, que je peux écrire en majuscules com
 ``` 
 
  </details>
+ 
+<[back](./prerequismaths.md) - [accueil](./README.md) - [next](./typededonnees.md)>
