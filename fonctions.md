@@ -1,3 +1,5 @@
+<[back](./boucles.md) - [accueil](./README.md) - [next](./conditions.md)>
+
 # Fonctions
 
 Une fonction permet de définir un bout de code qui peut être utilisé plusieurs fois. Elle est introduite par le mot clé ```def```, un nom, des arguments (optionnels), le corps du code et le mot clé ```return``` (ou ```print```) pour retourner (ou pour afficher) une valeur. Le corps du code doit être *indenté* de la définition de la fonction. Plusieurs exemples de fonctions sont donnés ci-dessous. 
@@ -52,3 +54,6 @@ def somme(liste):
 ```
 
 </details>
+
+<[back](./boucles.md) - [accueil](./README.md) - [next](./conditions.md)>
+
