@@ -45,4 +45,13 @@ False
 
 </details>
 
+ # Autres cours
+
+* [Prérequis mathématiques](./prerequismaths.md)
+* [Affichage](./affichage.md)
+* [Type de Données](./typededonnees.md)
+* [Variables](./variables.md)
+* [Boucle For](./boucles.md)
+* [Fonctions](./fonctions.md)
+
 <[back](./fonctions.md) - [accueil](./README.md)>
