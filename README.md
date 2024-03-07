@@ -66,16 +66,35 @@ Il existe plusieurs attaques possibles pour casser le chiffre de César :
 
 **Exemple**
 
+La répartition des fréquences des lettres de la langue française donne l'alphabet suivant : ```eaistnrulodmpcvqgbfjhzxykw```. Selon la taille du texte clair, on peut recalculer cette répartition. Pour l'exemple ci-dessous, nous nous baserons sur la répartition des fréquences des lettres suivante : ```etsanlurodimcfypqvhgjbzxkw```.
+
 ```
 texte chiffré 1 : "qrxv vrpphv ghv hohyhv gh vhfrqgh hq vwdjh fkhc vw"
-texte chiffré 2 : "qrxv vrpphv ghv hohyhv gh vhfrqghv hq vwdjh fkhc vw. oh vxmhw gh vwdjh sruwh vxu o'hwxgh gh od uhvlvwdqfh g'xq fkliiuhphqw vbphwultxh idfh d od fubswdqdobvh prghuqh. oh exw hvw gh wurxyhu ghv prbhqv gh ghihqvh frqwuh o'dwwdtxh sdu dqdobvh iuhtxhqwlhooh ghv ohwwuhv. qrxv doorqv wudydloohu hq elqrph, dxwrxu gh vxmhw pdwkhpdwltxhv hw lqirupdwltxh, dyhf o'rxwlo sbwkrq. fhfl hvw xq shwlw phvvdjh fodlu."
+texte chiffré 2 : "qrxv vrpphv ghv hohyhv gh vhfrqgh hq vwdjh fkhc vw. oh vxmhw gh vwdjh sruwh vxu o'hwxgh gh od uhvlvwdqfh g'xq fkliiuhphqw vbphwultxh idfh d od fubswdqdobvh prghuqh. oh exw hvw gh wurxyhu ghv prbhqv gh ghihqvh frqwuh o'dwwdtxh sdu dqdobvh iuhtxhqwlhooh ghv ohwwuhv. qrxv doorqv wudydloohu hq elqrph, dxwrxu gh vxmhw pdwkhpdwltxhv hw lqirupdwltxh, dyhf o'rxwlo sbwkrq. fhfl hvw xq shwlw phvvdjh fodlu."
 ```
 
 |   Texte chiffré      |   Fréquence d'apparition des lettres |
 |---                   |---        
-| 1 | h:10, v:8, q:3, r:3, g:3, p:2, f:2, w:2, o:1, y:1, x:1, d:1, j:1, k:1, c:1, {a,b,e,i,l,m,n,s,t,u,v,x,z} = 0 |
+| 1 | h:10, v:8, q:3, r:3, g:3, p:2, f:2, w:2, o:1, y:1, x:1, d:1, j:1, k:1, c:1, {a,b,e,i,l,m,n,s,t,u,z} = 0 |
 | 2 | h:64, w:31, v:30, d:24, q:20, o:19, x:18, u:18, r:15, g:14, l:13, p:11, f:11, i:6, b:6, s:5, t:5, y:4, k:4, j:3, m:2, e:2, c:1, a:0, n:0, z:0 |
 
+Pour le texte chiffré 1, on remarque que la lettre h apparaît plus de fois que les autres, on pourrait conclure que le h est un e. La lettre v est ensuite la plus fréquente, elle pourrait être un t ou un s. Par contre, les autres lettres apparaissent le même nombre de fois, ce qui ne facilite pas le déchiffrement. 
 
+```
+alphabet chiffré 1    : hvqrgpfwoyxdjkcabeilmnstuz
+alphabet de référence : etsanlurodimcfypqvhgjbzxkw
+
+tentative 1 de déchiffrement : qrxT TrppET gET EoEyET gE TEfrqgE Eq TwdjE fkEc Tw
+tentative 2 de déchiffrement : qrxS SrppES gES EoEyES gE SEfrqgE Eq SwdjE fkEc Sw
+```
+
+Le texte chiffré 2 est plus long et permet de séparer plus facilement les fréquences d'apparition des lettres du texte chiffré. Nous prenons la même portion de texte qu'au-dessus pour montrer la différence. 
+
+```
+alphabet chiffré 2    : hwvdqoxurglpfibstykjmecanz
+alphabet de référence : etsanlurodimcfypqvhgjbzxkw
+
+tentative 1 de déchiffrement : NOUS SOMMES DES ELEVES DE SECOQDE EN STAGE CHEZ ST
+```
 
 
