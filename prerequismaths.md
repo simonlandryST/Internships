@@ -1,4 +1,6 @@
-### Bases
+# Prérequis Mathématiques
+
+## Bases
 * Base 10 : système décimal 0, 1, 2, 3, ..., 9, 10. 
 * Base 2 : système binaire basé sur des bits, 0 et 1. Pour écrire un nombre, on compte en puissances de 2 de droite à gauche.
   * Par exemple, $10 = 2^3 + 2^2$, $8 = 2^3$, $3 = 2^2 + 2^0$. L'écriture binaire en 4 bits de 10 est 1100, celle de 8 est 1000 et celle de 3 est 0011.
@@ -27,7 +29,7 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
 ```
 </details>
 
-### Calculs arithmétiques
+## Calculs arithmétiques
 
 On peut coder les différentes opération mathématiques :
 
