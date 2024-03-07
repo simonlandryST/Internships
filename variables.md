@@ -71,4 +71,13 @@ Q3/ Quel est le prix total ?
 
  </details>
 
+ # Autres cours
+
+* [Prérequis mathématiques](./prerequismaths.md)
+* [Affichage](./affichage.md)
+* [Type de Données](./typededonnees.md)
+* [Boucle For](./boucles.md)
+* [Fonctions](./fonctions.md)
+* [Conditions](./conditions/md)
+
 <[back](./typededonnees.md) - [accueil](./README.md) - [next](./boucles.md)>
