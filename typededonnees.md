@@ -236,4 +236,15 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 
  </details>
 
+ # Autres cours
+
+* [Prérequis mathématiques](./prerequismaths.md)
+* [Affichage](./affichage.md)
+* [Type de Données](./typededonnees.md)[color=#9B9B9B]
+* [Variables](./variables.md)
+* [Boucle For](./boucles.md)
+* [Fonctions](./fonctions.md)
+* [Conditions](./conditions/md)
+ 
+
 <[back](./affichage.md) - [accueil](./README.md) - [next](./variables.md)>
