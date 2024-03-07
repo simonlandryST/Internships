@@ -1,5 +1,4 @@
-[back](./affichage.md)
-[next](./variables.md)
+<[back](./affichage.md) - [next](./variables.md)>
 
 # Type de Données 
 
