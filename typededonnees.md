@@ -1,4 +1,4 @@
-<[back](./affichage.md) - [next](./variables.md)>
+<[back](./affichage.md) - [accueil](./README.md) - [next](./variables.md)>
 
 # Type de Données 
 
@@ -235,3 +235,5 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 ```
 
  </details>
+
+<[back](./affichage.md) - [accueil](./README.md) - [next](./variables.md)>
