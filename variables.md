@@ -1,3 +1,5 @@
+<[back](./typededonnees.md) - [accueil](./README.md) - [next](./boucles.md)>
+
  # Variables
 
 Une variable est utilisée pour donner un nom à un type de donnée : une string, une liste, un dictionnaire, une valeur. Par exemple, quand on définit la liste ```L = [1,2,3]```, L est une variable de type list. 
@@ -68,3 +70,5 @@ Q3/ Quel est le prix total ?
 ```
 
  </details>
+
+<[back](./typededonnees.md) - [accueil](./README.md) - [next](./boucles.md)>
