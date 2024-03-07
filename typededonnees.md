@@ -238,18 +238,14 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 
  # Autres cours
 
-```diff
 * [Prérequis mathématiques](./prerequismaths.md)
 * [Affichage](./affichage.md)
-* #[Type de Données](./typededonnees.md)
+* $${\color{blue}Blue}$$[Type de Données](./typededonnees.md)
 * [Variables](./variables.md)
 * [Boucle For](./boucles.md)
 * [Fonctions](./fonctions.md)
 * [Conditions](./conditions/md)
-```
 
- ```diff
-text
-```
+
 
 <[back](./affichage.md) - [accueil](./README.md) - [next](./variables.md)>
