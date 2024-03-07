@@ -120,5 +120,14 @@ e
 
 </details>
 
+ # Autres cours
+
+* [Prérequis mathématiques](./prerequismaths.md)
+* [Affichage](./affichage.md)
+* [Type de Données](./typededonnees.md)
+* [Variables](./variables.md)
+* [Fonctions](./fonctions.md)
+* [Conditions](./conditions/md)
+
 <[back](./variables.md) - [accueil](./README.md) - [next](./fonctions.md)>
 
