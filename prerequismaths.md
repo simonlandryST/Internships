@@ -1,4 +1,4 @@
-<./README.md>; rel="back"
+[back](./README.md)
 
 # Prérequis Mathématiques
 
