@@ -246,6 +246,6 @@ Il n'est pas possible d'accéder à plusieurs éléments d'un coup
 * [Fonctions](./fonctions.md)
 * [Conditions](./conditions/md)
 
-
+$${\color{blue}Type de Données}$$
 
 <[back](./affichage.md) - [accueil](./README.md) - [next](./variables.md)>
