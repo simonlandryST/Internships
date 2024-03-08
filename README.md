@@ -30,7 +30,7 @@ Lancer un interpréteur _python_ :
 ### Définition
 <p align="justify"> 
 En cryptographie, le chiffre de César est une méthode de chiffrement par décalage des lettres de l'alphabet. Elle est utilisée par Jules César dans ses correspondances secrètes. Le texte chiffré s'obtient en remplaçant chaque lettre clair par une autre lettre unique de l'alphabet. Le nombre de positions décalées définit la clé secrète, utile pour chiffrer et déchiffrer. On est donc dans un type de chiffrement symétrique. Par exemple, avec un décalage de 3 vers la droite, la lettre A est remplacéee par D, B devient E, et ainsi jusqu'à W qui devient Z, puis X devient A, Y devient B et Z devient C. Il s'agit d'une permutation circulaire de l'alphabet. Dans le cas de l'alphabet latin, le chiffre de César n'a que 26 clés possibles (y compris la clé nulle qui ne modifie pas le texte clair). 
-</p>
+
 **Exemple**
 
 Le chiffrement peut être représenté par la superposition de deux alphabets, l'alphabet clair présenté dans l'ordre normal et l'alphabet chiffré décalé à droite, du nombre de lettres voulu. Nous avons ci-dessous l'exemple avec la clé de chiffrement de 3 :
@@ -97,4 +97,4 @@ alphabet de référence : etsanlurodimcfypqvhgjbzxkw
 tentative 1 de déchiffrement : nous sommes des eleves de secondes en stage chez st
 ```
 
-
+</p>
