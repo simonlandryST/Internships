@@ -75,7 +75,7 @@ texte chiffré 2 : "qrxv vrpphv ghv hohyhv gh vhfrqgh hq vwdjh fkhc vw. oh vxmhw
 
 |   Texte chiffré      |   Fréquence d'apparition des lettres |
 |---                   |---        
-| 1 | h:10, v:8, q:3, r:3, g:3, p:2, f:2, w:2, o:1, y:1, x:1, d:1, j:1, k:1, c:1, {a,b,e,i,l,m,n,s,t,u,z} = 0 |
+| 1 | h:10, v:8, q:3, r:3, g:3, p:2, f:2, w:2, o:1, y:1, x:1, d:1, j:1, k:1, c:1, {a,b,e,i,l,m,n,s,t,u,z}:0 |
 | 2 | h:64, w:31, v:30, d:24, q:20, o:19, x:18, u:18, r:15, g:14, l:13, p:11, f:11, i:6, b:6, s:5, t:5, y:4, k:4, j:3, m:2, e:2, c:1, a:0, n:0, z:0 |
 
 Pour le texte chiffré 1, on remarque que la lettre h apparaît plus de fois que les autres, on pourrait conclure que le h est un e. La lettre v est ensuite la plus fréquente, elle pourrait être un t ou un s. Par contre, les autres lettres apparaissent le même nombre de fois, ce qui ne facilite pas le déchiffrement. 
@@ -94,7 +94,7 @@ Le texte chiffré 2 est plus long et permet de séparer plus facilement les fré
 alphabet chiffré 2    : hwvdqoxurglpfibstykjmecanz
 alphabet de référence : etsanlurodimcfypqvhgjbzxkw
 
-tentative 1 de déchiffrement : NOUS SOMMES DES ELEVES DE SECOQDE EN STAGE CHEZ ST
+tentative 1 de déchiffrement : nous sommes des eleves de secondes en stage chez st
 ```
 
 
