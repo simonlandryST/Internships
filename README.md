@@ -100,7 +100,7 @@ tentative 1 de déchiffrement : nous sommes des eleves de secondes en stage chez
 
 Le texte sur lequel nous allons travailler est le suivant :
 
-Nous sommes des eleves de secondes en stage chez ST. Le sujet de stage porte sur l'etude de la resistance d'un chiffrement symetrique face à la cryptanalyse moderne. Le but est de trouver des moyens de defense contre l'attaque par analyse frequentielle des lettres. Nous allons travailler en binome, autour de sujet mathématiques et informatique, avec l'outil Python. Ceci est un petit message clair.
+_Nous sommes des eleves de secondes en stage chez ST. Le sujet de stage porte sur l'etude de la resistance d'un chiffrement symetrique face à la cryptanalyse moderne. Le but est de trouver des moyens de defense contre l'attaque par analyse frequentielle des lettres. Nous allons travailler en binome, autour de sujet mathématiques et informatique, avec l'outil Python. Ceci est un petit message clair._
 
 Ce texte sera enregistré sous le nom _plaintext.txt_ dans votre code. Pour le chiffrer et travailler dessus en python, il faut exécuter la commande suivante : 
 
@@ -113,20 +113,18 @@ Afin de supprimer les accents, vous pouvez ajouter dans votre code la fonction s
 ```
 def remove_accents(chainestr):
     # peut être modifié
-    tablo = { 'éèêẽ' : 'e'
+    tableau = { 'éèêẽ' : 'e'
             , 'ç'    : 'c'
             , 'àâã'  : 'a'
             , 'ùû'   : 'u'
             , 'ô'    : 'o'
             , 'îï'   : 'i'
             }
-
     mot_sans_accents = ""
     for i in chainestr:
-        for k in tablo:
-            if i in k: i = tablo[k]; break
+        for k in tableau:
+            if i in k: i = tableau[k]; break
         mot_sans_accents += i
-
     return mot_sans_accents
 ```
 
