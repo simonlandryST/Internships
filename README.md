@@ -4,7 +4,7 @@
 
 |   Durée       |   Contenu |   Compétences acquises
 |---            |---        |--- 
-| Lundi - mardi | Présentation cryptologie dans les puces, présentation du stage, premier chiffrement symétrique de César sur papier, cours python sur Github, implémenter le chiffrement de César et tester | Comprendre l'environnement de travail Notions de cryptologie Bases en python, réflexion mathématique et algorithmique | 
+| Lundi - mardi | Présentation cryptologie dans les puces, présentation du stage, premier chiffrement symétrique de César sur papier, cours python sur Github, implémenter le chiffrement de César et tester | Comprendre l'environnement de travail, notions de cryptologie, bases en python, réflexion mathématique et algorithmique | 
 | Mercredi - jeudi | Réflexion contre-mesures, codes python et tests | Réflexion sur un sujet en cryptographie, autonomie
 | Vendredi matin | Conclusion, présentation des résultats | Restitution des connaissances |
 
