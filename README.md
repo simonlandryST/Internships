@@ -134,7 +134,7 @@ Pour appliquer cette fonction au texte de départ, il suffit d'exécuter la comm
 plain = remove_accents(plain.read().lower())
 ```
 
-Vous pouvez maintenant chiffrer le texte avec le chiffrement de César. 
+Vous pouvez maintenant chiffrer le texte avec votre fonction de chiffrement de César. 
 
 
 
