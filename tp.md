@@ -60,8 +60,12 @@ Soit la chaîne de caractère "je chiffre mon message". On va faire un chiffreme
 Q1. Ajouter dans votre code la fonction suivante. Elle permet de trouver la l'index d'une lettre dans l'alphabet français. Par exemple, la lettre i dans "simon" est à l'index 1 dans le mot "simon" et à l'index 8 dans l'alphabet (c'est la 9e lettre de l'alphabet).
 
 ```
+alphabet = "abcdefghijklmnopqrstuvwxyz
 def position_alphabet(letter):
     return alphabet.find(letter)
+
+>>> print(position_alphabet("c")
+3
 ```
 
 
