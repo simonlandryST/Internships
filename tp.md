@@ -131,7 +131,10 @@ Vous venez de coder une fonction de chiffrement symétrique de César.
 
 ## Exercice 4
 
-Trouver d'autre(s) manière(s) de coder un chiffrement de César. 
+Trouver d'autre(s) manière(s) de coder un chiffrement de César. On peut par exemple passer en paramètres :
+
+* Le message à chiffrer et la clé secrète
+* Le message à chiffrer et une chaîne de caractère
 
 ## Exercice 5 
 
