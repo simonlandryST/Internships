@@ -96,14 +96,12 @@ Q3. Que donne le chiffrement symétrique du mot "cryptologie" avec la clé secr�
 
 Q4. Détaillez les différentes étapes de réflexion. En premier on fait quoi, puis en deuxième, etc. 
 
-## Exercice 2 - avec Python
-
-En python, il est possible de tester le résultat d'une fonction. Soit la fonction somme(a,b) ci-dessus. Par exemple, la condition ```if somme(3,4) == 7:``` teste si le résultat de la fonction ```somme(3,4)``` est égale à 7.
+## Exercice 2 - à la main et avec python
 
 La fonction suivante permet de trouver l'index d'une lettre dans l'alphabet français. Par exemple, la lettre i dans "tim" est à l'index 1 dans le mot "tim" et à l'index 8 dans l'alphabet (c'est la 9e lettre de l'alphabet).
 
 ```
-alphabet = "abcdefghijklmnopqrstuvwxyz
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 def position_alphabet(letter):
     return alphabet.find(letter)
 
@@ -111,13 +109,27 @@ def position_alphabet(letter):
 2
 ```
 
-Q1. Quel est l'index de la lettre "r" dans la châine de caractère S = "cryptologie" ?
+Q1. Quel est l'index de la lettre "r" dans la châine de caractère S = "cryptologie" ? Manuellement et en python.
 
-Q2. Quelle est la position de la lettre "r" dans l'alphabet français ? 
+Q2. Quelle est la position de la lettre "r" dans l'alphabet français ? Manuellement et en python. 
 
-Q3. On veut décaler la lettre "r" de 2 positions dans l'alphabet sans utiliser la manipulation ```S[:i]+"t"+S[i+1:]```. Comment peut-on faire ? 
+Q3. On veut décaler la lettre "r" de 2 positions dans l'alphabet sans utiliser la manipulation ```S[:i]+"t"+S[i+1:]```. Comment peut-on faire (en python) ? 
 
 ## Exercice 3
+
+Soit ```elt``` un élément de la chaîne de caractère. La commande ```elt.isalpha()``` retourne ```True``` si elt est une lettre et retourne ```False``` si ce n'est pas le cas (par exemple un espace ou un chiffre).
+
+Soit les chaînes de caractères suivantes :
+* S = "on veut chiffrer le mot securite"
+* alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+Ecrire une boucle qui parcours les éléments de la string S. Tester si chaque élément est une lettre. Si oui, décalez cette lettre de 3 positions vers la droite. Sinon, ne faites rien (il suffit de ne pas mettre de boucle ```else:```). Retourner S. 
+
+Vous venez de coder une fonction de César. 
+
+## Exercice 4
+
+Trouver d'autre(s) manière(s) de coder un chiffrement de César. 
 
 
 
