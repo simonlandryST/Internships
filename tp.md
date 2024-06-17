@@ -1,6 +1,6 @@
------------------- Lundi ------------------
+# Lundi 
 
-# Exercice 1 
+## Exercice 1 
 
 Soit la fonction ```exercice1(L)``` avec la liste L en paramètre. 
 
@@ -41,7 +41,7 @@ def exercice1(L):
 
 </details>
 
-# Exercice 2 
+## Exercice 2 
 
 Soit la fonction ```exercice2(str)``` avec ```str``` une chaîne de caractère.
 
@@ -51,9 +51,9 @@ Q2. Décaler toutes les lettres "c" de 3 positions dans l'alphabet.
 
 Q3. Tester la fonction sur la chaîne "chiffrement du message securite".
 
------------------- Mardi ------------------
+# Mardi 
 
-# Rappel sur les fonctions
+## Rappel sur les fonctions
 
 On définit une fonction de cette manière : 
 
@@ -79,15 +79,18 @@ def somme(a,b):
 >>> print(somme(6,8))
 14
 ```
-# Exercice 1 - à la main
+## Exercice 1 - à la main
 
 Q1. Ecrire sur une feuille la phrase "stage de cryptographie". Reproduire le tableau suivant : 
 
 |A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|
+| | |C| |E| |G| |I| | |L| | |O|P| |R| |T| | | | |Y| |
 
-# Exercice 2
+
+
+## Exercice 2 - avec Python
 
 En python, il est possible de tester le résultat d'une fonction. Soit la fonction somme(a,b) ci-dessus. Par exemple, la condition ```if somme(3,4) == 7:``` teste si le résultat de la fonction ```somme(3,4)``` est égale à 7.
 
@@ -108,7 +111,7 @@ Q2. Quelle est la position de la lettre "r" dans l'alphabet français ?
 
 Q3. On veut décaler la lettre "r" de 2 positions dans l'alphabet sans utiliser la manipulation ```S[:i]+"t"+S[i+1:]```. Comment peut-on faire ? 
 
-# Exercice 3
+## Exercice 3
 
 
 
