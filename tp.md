@@ -41,6 +41,14 @@ def exercice1(L):
 
 </details>
 
+# Exercice 2 
+
+Soit la fonction ```exercice2(str)``` avec ```str``` une chaîne de caractère.
+
+Q1. Parcourir les éléments de la chaîne de caractères str. Si deux éléments consécutifs sont les mêmes, les changer tous les deux par la lettre "e". Exemple, dans la chaîne "
+Q2. Décaler toutes les lettres "c" de 3 positions dans l'alphabet. 
+Q3. Tester la fonction sur la chaîne "chiffrement du message securite".
+
  # Autres cours
 
 * [Prérequis mathématiques](./prerequismaths.md)
