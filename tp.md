@@ -135,7 +135,7 @@ Trouver d'autre(s) manière(s) de coder un chiffrement de César.
 
 ## Exercice 5 
 
-Rendez-vous [ici](https://github.com/simonlandryST/Internships/tree/main?tab=readme-ov-file#point-de-d%C3%A9part)
+Rendez-vous [ici](https://github.com/simonlandryST/Internships/tree/main?tab=readme-ov-file#point-de-d%C3%A9part) dans la partie "Point de départ". 
 
 
 
