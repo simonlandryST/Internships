@@ -109,7 +109,7 @@ def position_alphabet(letter):
 2
 ```
 
-Q1. Quel est l'index de la lettre "r" dans la châine de caractère S = "cryptologie" ? Manuellement et en python.
+Q1. Quel est l'index de la lettre "r" dans la chaîne de caractère S = "cryptologie" ? Manuellement et en python.
 
 Q2. Quelle est la position de la lettre "r" dans l'alphabet français ? Manuellement et en python. 
 
