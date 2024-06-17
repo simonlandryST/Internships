@@ -15,7 +15,7 @@ Pour indiquer la base souhaitée dans du code python, il faut utiliser un préfi
 * Base 2 : ```0b```
 * Base 16 : ```0x```
 
-**À ton tour !** Utilise la console pour voir les valeurs des nombres suivants : ```0b10101010, 0xaa, 0xAA, 170```
+**À ton tour !** Utilise la console pour voir les valeurs des nombres suivants : ```0b10101010, 0xaa, 0xAA, 170``` avec print(int("0b010101",2))
 <details>
   <summary>Solution</summary>
  
