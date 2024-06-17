@@ -88,7 +88,9 @@ Q1. Ecrire sur une feuille le mot "cryptologie". Reproduire le tableau suivant :
 |0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|
 | | | | | | | | | | | | | | | | | | | | | | | | | | |
 
-Q2. Ecrivez les positions dans l'alphabet des lettres du mot "cryptologie" et ajouter 4 à ces positions.
+Q2. Ecrivez les positions dans l'alphabet des lettres du mot "cryptologie" et ajouter 4 à ces positions. Par exemple, pour la première lettre on a :
+
+C -> position 2 -> +4 = position 6 -> C devient G
 
 Q3. Que donne le chiffrement symétrique du mot "cryptologie" avec la clé secrète 4 . 
 
