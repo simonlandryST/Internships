@@ -51,6 +51,20 @@ Q2. Décaler toutes les lettres "c" de 3 positions dans l'alphabet.
 
 Q3. Tester la fonction sur la chaîne "chiffrement du message securite".
 
+# Exercice 3
+
+En python, il est possible de tester le résultat d'une fonction. Par exemple ```if somme(3,4) == 7:``` teste si le résultat de la fonction ```somme(3,4)``` est égale à 7
+
+Soit la chaîne de caractère "je chiffre mon message". On va faire un chiffrement symétrique de la manière suivante
+
+Q1. Ajouter dans votre code la fonction suivante. Elle permet de trouver la l'index d'une lettre dans l'alphabet français. Par exemple, la lettre i dans "simon" est à l'index 1 dans le mot "simon" et à l'index 8 dans l'alphabet (c'est la 9e lettre de l'alphabet).
+
+```
+def position_alphabet(letter):
+    return alphabet.find(letter)
+```
+
+
  # Autres cours
 
 * [Prérequis mathématiques](./prerequismaths.md)
