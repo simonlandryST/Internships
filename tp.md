@@ -65,7 +65,7 @@ def position_alphabet(letter):
     return alphabet.find(letter)
 
 >>> print(position_alphabet("c")
-3
+2
 ```
 
 
