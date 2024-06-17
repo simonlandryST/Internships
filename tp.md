@@ -27,7 +27,6 @@ def exercice1(L):
   S = 0
   for i in range(4):
     S = S + L[i]
-
   # Q3
   for i in range(len(L)):
     if L[i] == 10:
@@ -37,6 +36,7 @@ def exercice1(L):
 
 >>> ma_liste = [5,78,92,100,5,67,5]
 >>> print(exercice1(ma_liste))
+[10,"ajout",78,92,100,10,"ajout",67,10,"ajout"], 280
 ```
 
 </details>
