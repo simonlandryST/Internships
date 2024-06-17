@@ -16,6 +16,7 @@ Q5. Tester la fonction sur la liste [5,78,92,100,5,67,5]
 
 <details>
   <summary>Solution</summary>
+  
 ```
 def exercice1(L):
   # Q1
@@ -37,6 +38,7 @@ def exercice1(L):
 >>> ma_liste = [5,78,92,100,5,67,5]
 >>> print(exercice1(ma_liste))
 ```
+
 </details>
 
  # Autres cours
