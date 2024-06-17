@@ -1,4 +1,4 @@
-<[back](./fonctions.md) - [accueil](./README.md)>
+------------------ Lundi ------------------
 
 # Exercice 1 
 
@@ -51,13 +51,47 @@ Q2. Décaler toutes les lettres "c" de 3 positions dans l'alphabet.
 
 Q3. Tester la fonction sur la chaîne "chiffrement du message securite".
 
-# Exercice 3
+------------------ Mardi ------------------
 
-En python, il est possible de tester le résultat d'une fonction. Par exemple ```if somme(3,4) == 7:``` teste si le résultat de la fonction ```somme(3,4)``` est égale à 7
+# Rappel sur les fonctions
 
-Soit la chaîne de caractère "je chiffre mon message". On va faire un chiffrement symétrique de la manière suivante
+On définit une fonction de cette manière : 
 
-Q1. Ajouter dans votre code la fonction suivante. Elle permet de trouver la l'index d'une lettre dans l'alphabet français. Par exemple, la lettre i dans "simon" est à l'index 1 dans le mot "simon" et à l'index 8 dans l'alphabet (c'est la 9e lettre de l'alphabet).
+```
+def nom_fonction(parametres):
+  ...corps de la fonction...
+  ...en utilisant les parametres...
+  return resultat
+```
+
+On fait appel à la fonction par : 
+
+```
+print(nom_fonction(mes_parametres)
+```
+
+Par exemple, la fonction suivante calcule la somme entre l'élément a et l'élément b. 
+
+```
+def somme(a,b):
+  return a+b
+
+>>> print(somme(6,8))
+14
+```
+# Exercice 1 - à la main
+
+Q1. Ecrire sur une feuille la phrase "stage de cryptographie". Reproduire le tableau suivant : 
+
+|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|
+
+# Exercice 2
+
+En python, il est possible de tester le résultat d'une fonction. Soit la fonction somme(a,b) ci-dessus. Par exemple, la condition ```if somme(3,4) == 7:``` teste si le résultat de la fonction ```somme(3,4)``` est égale à 7.
+
+La fonction suivante permet de trouver l'index d'une lettre dans l'alphabet français. Par exemple, la lettre i dans "tim" est à l'index 1 dans le mot "tim" et à l'index 8 dans l'alphabet (c'est la 9e lettre de l'alphabet).
 
 ```
 alphabet = "abcdefghijklmnopqrstuvwxyz
@@ -68,14 +102,15 @@ def position_alphabet(letter):
 2
 ```
 
+Q1. Quel est l'index de la lettre "r" dans la châine de caractère S = "cryptologie" ?
 
- # Autres cours
+Q2. Quelle est la position de la lettre "r" dans l'alphabet français ? 
 
-* [Prérequis mathématiques](./prerequismaths.md)
-* [Affichage](./affichage.md)
-* [Type de Données](./typededonnees.md)
-* [Variables](./variables.md)
-* [Fonctions](./fonctions.md)
-* [Conditions](./conditions/md)
+Q3. On veut décaler la lettre "r" de 2 positions dans l'alphabet sans utiliser la manipulation ```S[:i]+"t"+S[i+1:]```. Comment peut-on faire ? 
 
-<[back](./fonctions.md) - [accueil](./README.md)>
+# Exercice 3
+
+
+
+
+
