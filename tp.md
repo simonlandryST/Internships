@@ -92,7 +92,7 @@ Q2. Ecrivez les positions dans l'alphabet des lettres du mot "cryptologie" et aj
 
 C -> position 2 -> +4 = position 6 -> C devient G
 
-Q3. Que donne le chiffrement symétrique du mot "cryptologie" avec la clé secrète 4 . 
+Q3. Que donne le chiffrement symétrique du mot "cryptologie" avec la clé secrète 4 ?
 
 Q4. Détaillez les différentes étapes de réflexion. En premier on fait quoi, puis en deuxième, etc. 
 
