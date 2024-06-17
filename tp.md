@@ -96,6 +96,8 @@ Q3. Que donne le chiffrement symétrique du mot "cryptologie" avec la clé secr�
 
 Q4. Détaillez les différentes étapes de réflexion. En premier on fait quoi, puis en deuxième, etc. 
 
+Q5. Déchiffrer à la main le mot chiffré obtenu en Q3. Comment faut-il procéder ? 
+
 ## Exercice 2 - à la main et avec python
 
 La fonction suivante permet de trouver l'index d'une lettre dans l'alphabet français. Par exemple, la lettre i dans "tim" est à l'index 1 dans le mot "tim" et à l'index 8 dans l'alphabet (c'est la 9e lettre de l'alphabet).
@@ -123,13 +125,21 @@ Soit les chaînes de caractères suivantes :
 * S = "on veut chiffrer le mot securite"
 * alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-Ecrire une boucle qui parcours les éléments de la string S. Tester si chaque élément est une lettre. Si oui, décalez cette lettre de 3 positions vers la droite. Sinon, ne faites rien (il suffit de ne pas mettre de boucle ```else:```). Retourner S. 
+Ecrire une boucle qui parcours les éléments de la string S. Tester si chaque élément est une lettre. Si oui, décalez cette lettre de 3 positions vers la droite en utilisant la variable ```alphabet```. Sinon, ne faites rien (il suffit de ne pas mettre de boucle ```else:```). Retourner S. 
 
-Vous venez de coder une fonction de César. 
+Vous venez de coder une fonction de chiffrement symétrique de César. 
 
 ## Exercice 4
 
 Trouver d'autre(s) manière(s) de coder un chiffrement de César. 
+
+## Exercice 5 
+
+Rendez-vous [ici](https://github.com/simonlandryST/Internships/tree/main?tab=readme-ov-file#point-de-d%C3%A9part)
+
+
+
+
 
 
 
