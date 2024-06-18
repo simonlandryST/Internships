@@ -168,6 +168,10 @@ e t s a n l u r o d i m c f y p q v h g j b z x k w
             # sinon on initialise à 1
             else:
                 letter_count[cipher[char]] = 1
+
+    # Trier les lettres par ordre décroissant de fréquence
+    sorted_letters = sorted(letter_count.items(), key=lambda x: x[1], reverse=True)
+    print("\n",sorted_letters,len(sorted_letters),"\n")
 ```
 
 
