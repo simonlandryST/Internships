@@ -1,10 +1,10 @@
 # Sommaire
 
-[Lundi](#lundi)
+[Lundi](#lundi) - les listes et les strings
 
-[Mardi](#mardi)
+[Mardi](#mardi) - chiffrement de César et analyse fréquentielle
 
-[Mercredi](#mercredi)
+[Mercredi](#mercredi) - contremesures contre l'attaque par analyse fréquentielle
 
 # <a name="lundi"></a> Lundi 
 
