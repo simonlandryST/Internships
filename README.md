@@ -23,7 +23,10 @@ Lancer un interpréteur _python_ :
 * [Boucle For](./boucles.md)
 * [Fonctions](./fonctions.md)
 * [Conditions](./conditions/md)
-* [Travaux Pratiques](./tp.md)
+
+## Travaux Pratiques
+
+* [Exercices quotidiens](./tp.md)
 
 ## Chiffrement de César
 
