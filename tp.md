@@ -216,9 +216,13 @@ alea = random.randint(0,10000)
 ## Idées pour contrer l'attaque par analyse fréquentielle
 
 * Changer la clé secrète pour chaque lettre du message clair grâce à un nombre aléatoire
+* 
 ** Eliot : ```cle += random.randint(1,25)```
+  
 *** Avertissement 1 : il y a un biais dans la génération de ta clé, tu ne parcours jamais la clé = 0. C'est attaquable.
+
 *** Avertissement 2 : comment tu déchiffres ?
+
 *** Question : comment tu envoies de manière sécurisée tes clés secrète à une deuxième personne ? comme le téléphone rouge ? 
 
 
