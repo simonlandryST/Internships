@@ -225,9 +225,9 @@ alea = random.randint(0,10000)
 
 Alice et Bob souhaitent échanger une clé secrète partagée sans se la communiquer entre eux.
 
-* Alice génère deux nombres aléatoires ```a``` et ```g``` et transmet à Bob $A = g^a$ et ```g```.
-* Bob génère un nombre aléatoire ```b``` et transmet à Alice ```$B = A^b$```.
-* Alice calcule ```$B^a$```.
+* Alice génère deux nombres aléatoires ```a``` et ```g``` et transmet à Bob $A = g^a$ et $g$.
+* Bob génère un nombre aléatoire ```b``` et transmet à Alice $B = A^b$.
+* Alice calcule $B^a$.
 
 Q1. Prouver qu'Alice et Bob possède la même clé secrète.
 
