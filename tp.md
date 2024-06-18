@@ -1,4 +1,8 @@
-# Lundi 
+[Lundi](#lundi)
+[Mardi](#mardi)
+[Mercredi](#mercredi)
+
+# <a name="lundi"></a> Lundi 
 
 ## Exercice 1 
 
@@ -51,7 +55,7 @@ Q2. Décaler toutes les lettres "c" de 3 positions dans l'alphabet.
 
 Q3. Tester la fonction sur la chaîne "chiffrement du message securite".
 
-# Mardi 
+# <a name="mardi"></a> Mardi 
 
 ## Rappel sur les fonctions
 
@@ -204,7 +208,7 @@ def dec_freq(cipher,freq_alphabet):
     
     return decipher
 ```
-# Mercredi 
+# <a name="mercredi"></a> Mercredi 
 
 Vous savez chiffrer un message clair avec le chiffrement de César. Je sais attaquer votre message chiffré avec une attaque par analyse fréquentielle des lettres. Pour cela, je compte la fréquence de toutes les lettres de votre message chiffré, je les trie dans l'ordre décroissant et je compare les lettres correspondantes avec celles de l'alphabet français.
 
@@ -219,11 +223,12 @@ et que je compare avec les lettres de l'alphabet qui apparaissent le plus ou moi
 Alors q devient e, h devient t, i devient s, ..., n devient w. Je peux ainsi déchiffrer votre message chiffré en remplaçant chaque lettre par sa correspondante. 
 
 **Votre but :** empêcher que je puisse faire cette correspondance d'une lettre à une autre.
+
 **Indice :** il faut casser les fréquences que je calcule.
 
-**Consigne :** 
-* Il est interdit de modifier le message original
-* Il est nécessaire de savoir déchiffrer son message chiffré
+**Consigne et questions :** 
+* Il est interdit de modifier le message original.
+* Il est nécessaire de savoir déchiffrer son message chiffré.
 * Est-il possible de partager votre clé secrète à votre destinataire de manière sécurisée ? 
 
 ## Générer un nombre aléatoire
