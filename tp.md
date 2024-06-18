@@ -172,10 +172,45 @@ e t s a n l u r o d i m c f y p q v h g j b z x k w
     # Trier les lettres par ordre décroissant de fréquence
     sorted_letters = sorted(letter_count.items(), key=lambda x: x[1], reverse=True)
     print("\n",sorted_letters,len(sorted_letters),"\n")
+
+    # Ranger les lettres par ordre d'occurrences de manière décroissante
+    cipher_letters = ""
+    for i in range(len(sorted_letters)):
+        cipher_letters += sorted_letters[i][0]
+
+    # Pour les lettres qui n'apparaissent jamais 
+    for char in alphabet:
+        if char not in cipher_letters:
+            cipher_letters += char
+
+    return cipher_letters
+
+def dec_freq(cipher,freq_alphabet):
+    freq_cipher   = freq_analysis(cipher)
+
+    print("\nFréquence des lettres du message chiffré     :",freq_cipher)
+    print("Fréquence des lettres de la langue française :", freq_alphabet)
+    
+    #Créer un dictionnaire de lettres chiffré et françaises
+    mapping = dict(zip(freq_cipher,freq_alphabet))
+
+    #Associer les lettres du texte chiffré aux lettres de la langue française
+    decipher = ""
+    for char in range(len(cipher)):
+        if cipher[char].isalpha():
+            decipher += mapping[cipher[char]]
+        else:
+            decipher += cipher[char]
+    
+    return decipher
 ```
 
 
+## Random
 
+import random
+
+alea = random.randint(0,10000)
 
 
 
