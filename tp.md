@@ -142,6 +142,8 @@ Q1. Comptez la fréqence de chaque lettre de votre message chiffré.
 
 Q2. Comparez ces fréquences à celles des lettres de l'alphabet français et associer les lettres du messages chiffré à une lettre possible de l'alphabet.
 
+E A I S N R T O L U D C M P G B V H F Q Y X J K W Z 
+
 Q3. Tentez de déchiffrer votre message chiffré. 
 
 Q4. Quelles conclusions faites-vous ?
