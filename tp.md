@@ -156,6 +156,22 @@ L'alphabet de référence des fréquence des lettres de ce texte est :
 
 e t s a n l u r o d i m c f y p q v h g j b z x k w
 
+```
+# Compter le nombre d'occurrences de chaque lettre dans un dictionnaire
+    letter_count = {}
+    for char in range(0,len(cipher)):
+        # si le caractère est une lettre (sinon on ne fait rien)
+        if cipher[char].isalpha():
+            # s'il est déjà présent dans le dictionnaire on ajoute 1
+            if cipher[char] in letter_count:
+                letter_count[cipher[char]] += 1
+            # sinon on initialise à 1
+            else:
+                letter_count[cipher[char]] = 1
+```
+
+
+
 
 
 
