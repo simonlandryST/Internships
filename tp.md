@@ -206,6 +206,23 @@ def dec_freq(cipher,freq_alphabet):
 ```
 # Mercredi 
 
+## Consigne
+
+On sait chiffrer un message clair avec le chiffrement de César. Je sais attaquer votre message chiffré avec une attaque par analyse fréquentielle des lettres. Pour cela, je compte la fréquence de toutes les lettres de votre message chiffré, je les trie dans l'ordre décroissant et je compare les lettres correspondantes avec celles de l'alphabet français.
+
+Par exemple, si j'obtiens ces lettres de la fréquence la plus haute à la plus basse :
+
+q h i t p x w r s v k j b d g l u f a o c m z e y n
+
+et que je compare avec les lettres de l'alphabet qui apparaissent le plus ou moins possible dans la langue française :
+
+ e t s a n l u r o d i m c f y p q v h g j b z x k w
+
+Alors q devient e, h devient t, i devient s, ..., n devient w. 
+
+**Votre but :** empêcher que je puisse faire ce mapping d'une lettre à une autre
+**Indice :** il faut casses les fréquences que je calcule
+
 ## Générer un nombre aléatoire
 
 ```
@@ -219,7 +236,9 @@ alea = random.randint(0,10000)
     * Eliot : ```cle += random.randint(1,25)```
         * Avertissement 1 : il y a un biais dans la génération de ta clé, tu ne parcours jamais la clé = 0. C'est attaquable.
         * Avertissement 2 : comment tu déchiffres ?
-        * Question : comment tu envoies de manière sécurisée tes clés secrète à une deuxième personne ? comme le téléphone rouge ? 
+        * Question : comment tu envoies de manière sécurisée tes clés secrète à une deuxième personne ? comme le téléphone rouge ?
+* Ajouter une ou des lettres
+  * Amélie : si tu ajoutes une lettre après la lettre la plus fréquente de ton message chiffré, essaie de déchiffrer et de retrouver le message original. Il ne faut pas modifier le message original.
 
 ## Echange de clés de Diffie Hellman
 
