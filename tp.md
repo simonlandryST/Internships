@@ -152,7 +152,9 @@ Q4. Quelles conclusions faites-vous ?
 
 Rendez-vous [ici](https://github.com/simonlandryST/Internships/tree/main?tab=readme-ov-file#point-de-d%C3%A9part) dans la partie "Point de départ". 
 
+L'alphabet de référence des fréquence des lettres de ce texte est : 
 
+e t s a n l u r o d i m c f y p q v h g j b z x k w
 
 
 
