@@ -131,14 +131,25 @@ Vous venez de coder une fonction de chiffrement symétrique de César.
 
 ## Exercice 4
 
-Trouver d'autre(s) manière(s) de coder un chiffrement de César. On peut par exemple passer en paramètres :
+Trouver d'autre(s) manière(s) de coder un chiffrement de César sur la phrase de votre choix. On peut par exemple passer en paramètres :
 
 * Le message à chiffrer et la clé secrète
 * Le message à chiffrer et une chaîne de caractère
 
-## Exercice 5 
+## Exercice 5 - Attaques à la main
+
+Q1. Comptez la fréqence de chaque lettre de votre message chiffré. 
+
+Q2. Comparez ces fréquences à celles des lettres de l'alphabet français et associer les lettres du messages chiffré à une lettre possible de l'alphabet.
+
+Q3. Tentez de déchiffrer votre message chiffré. 
+
+Q4. Quelles conclusions faites-vous ?
+
+## Exercice 6
 
 Rendez-vous [ici](https://github.com/simonlandryST/Internships/tree/main?tab=readme-ov-file#point-de-d%C3%A9part) dans la partie "Point de départ". 
+
 
 
 
