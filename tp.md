@@ -250,6 +250,15 @@ random_letter = random.choice(string.ascii_letters)
 print(random_letter)
 ```
 
+**Milo**
+
+```
+for i in range(n):
+  random_letter = random.choice(string.ascii_letters)
+  freq['e'][i] += random_letter
+```
+  
+
 ## Idées pour contrer l'attaque par analyse fréquentielle
 
 * Changer la clé secrète pour chaque lettre du message clair grâce à un nombre aléatoire
