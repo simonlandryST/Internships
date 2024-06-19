@@ -235,11 +235,19 @@ Alors q devient e, h devient t, i devient s, ..., n devient w. Je peux ainsi dé
 * Il est nécessaire de savoir déchiffrer son message chiffré.
 * Est-il possible de partager votre clé secrète à votre destinataire de manière sécurisée ? 
 
-## Générer un nombre aléatoire
+## Astuces
 
+**Aléatoire entiers**
 ```
 import random
 alea = random.randint(0,10000)
+```
+
+**Aléatoire lettre**
+```
+import string
+random_letter = random.choice(string.ascii_letters)
+print(random_letter)
 ```
 
 ## Idées pour contrer l'attaque par analyse fréquentielle
