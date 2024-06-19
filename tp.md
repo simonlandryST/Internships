@@ -298,7 +298,7 @@ Q2. Peut-on utiliser la fonction f pour chiffrer un texte de manière résistant
 Le modulo p doit remplacer le nombre de caractères dans l'alphabet et le nombre d'éléments de la liste G.
 </details>
 
-Q3. La fonction de déchiffrement est ```y*x modulo p``` tel que ```a^{p-2} = y modulo p``` et x est un élément de G. Déchiffrer votre message chiffré obtenu en question 2.  
+Q3. La fonction de déchiffrement est ```y*x modulo p``` tel que ```a^{p-2} = y modulo p``` et x est un élément de G. Déchiffrez votre message chiffré obtenu en question 2.  
 
 
 
