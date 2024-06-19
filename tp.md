@@ -286,9 +286,25 @@ Le premier qui code la fonction de chiffrement symétrique décrite [ici](https:
 
 ## Petit théorème de Fermat
 
-Soit le petit théorème de Fermat, très utilisé en mathématiques et en cryptographie. 
+Soit le petit théorème de Fermat, très utilisé en mathématiques et en cryptographie. Soit ```p``` un nombre premier (divisible que par lui-même et par 1) et ```a```` premier avec ```p``` (le plus grand dénominateur commun entre ```a``` et ```p``` est égal à 1). 
 
-$$ a^{p-1} = 1 modulo\ p$$
+$$ a^{p-1} = 1 modulo p$$
+
+Q1. Soit G = [0,1,2,3,4,5,6] une liste de 7 éléments. Soit x un élément de G. Calculer toutes les images possible de la fonction f(x) = 5*x modulo 7. Combien y a-t-il d'images possibles ? 
+
+Q2. Peut-on utiliser la fonction f pour chiffrer un texte de manière résistante à l'attaque par analyse fréquentielle ? Si oui comment ? Quelle est la valeur de la clé secrète ? Tester de chiffrer un message de votre choix.
+
+<details>
+  <summary>Indice</summary>
+  
+Le modulo p doit remplacer le nombre de caractères dans l'alphabet et le nombre d'éléments de la liste G.
+</details>
+
+Q3. La fonction de déchiffrement est ```y*x modulo p``` tel que $a^{p-2} = y modulo p$ et x est un élément de G. Déchiffrer votre message chiffré obtenu en question 2.  
+
+
+
+
 
 
 
