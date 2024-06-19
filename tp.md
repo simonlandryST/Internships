@@ -6,6 +6,8 @@
 
 [Mercredi](#mercredi) - contremesures contre l'attaque par analyse fréquentielle
 
+[Jeudi](#mjeudi) - TP sur la journée
+
 # <a name="lundi"></a> Lundi 
 
 ## Exercice 1 
@@ -246,28 +248,11 @@ alea = random.randint(0,10000)
 **Aléatoire lettre**
 ```
 import string
-random_letter = random.choice(string.ascii_letters)
-print(random_letter)
-```
 
-**Milo**
-
-```
 for i in range(n):
   random_letter = random.choice(string.ascii_letters)
-  freq['e'][i] += random_letter
+  print(random_letter)
 ```
-  
-
-## Idées pour contrer l'attaque par analyse fréquentielle
-
-* Changer la clé secrète pour chaque lettre du message clair grâce à un nombre aléatoire
-    * Eliot : ```cle += random.randint(1,25)```
-        * Avertissement 1 : il y a un biais dans la génération de ta clé, tu ne parcours jamais la clé = 0. C'est attaquable.
-        * Avertissement 2 : comment tu déchiffres ?
-        * Question : comment tu envoies de manière sécurisée tes clés secrète à une deuxième personne ? comme le téléphone rouge ? Regarde la section ci-dessous sur l'échange des clés de Diffie Hellman. 
-* Ajouter une ou des lettres 
-  * Amélie : si tu ajoutes une lettre après la lettre la plus fréquente de ton message chiffré, essaie de déchiffrer et de retrouver le message original. Il ne faut pas modifier le message original.
 
 ## Echange de clés de Diffie Hellman
 
@@ -280,6 +265,30 @@ Alice et Bob souhaitent échanger une clé secrète partagée sans se la communi
 Q1. Prouver qu'Alice et Bob possède la même clé secrète.
 
 Q2. Prouver qu'une tierce personne ne peut pas reconstuire cette clé secrète. 
+
+## Vos idées pour contrer l'attaque par analyse fréquentielle
+
+* Eliot : changer la clé secrète pour chaque lettre du message clair grâce à un nombre aléatoire : ```cle += random.randint(0,25)```
+* Amélie : changer la clé secrète pour chaque lettre du message clair grâce à une fonction affine aléatoire : ```cle = (m*pos + k) % 26``` avec ```m``` et ```k``` tirés aléatoirement : ```m = random.randint(0,25), p = random.randint(0,25)```.
+* Max : attribuer aléatoirement une autre lettre à chaque lettre du message clair et utiliser sa position dans l'alphabet pour décaler la lettre du message clair dans l'alphabet. Par exemple, dans le message clair "je m'appelle max", on attribue aléatoirement la lettre ```b``` à la lettre ```j```. Comme la position de  ```b``` dans l'alphabet est 1, alors la lettre ```j``` est décalée de 1 position et devient ```k``` dans le message chiffré.
+* Milo : créer un dictionnaire tel que les lettres de l'alphabet (les clés du dictionnaire) prennent un ou plusieurs caractères en valeurs. Par exemple le dictionnaire D = {'a':['x','y','z'], 'b':['a','e'],....}
+
+## Autres idées
+
+* Chiffrer toutes les lettres du message clair avec un alphabet de sortie différent pour chaque lettre. Pour toutes les lettres du message clair, on peut décaler de 1 position l'alphabet. Par exemple, dans le message clair "je m'appelle amelie", avec la clé "bcdefghijklmnopqrstuvwxyza", la lettre ```j``` à la position 0 du message clair est chiffrée par un ```k```, avec la clé "cdefghijklmnopqrstuvwxyzab", la lettre ```e``` à la position 1 du message clair est chifrée par un ```g```. etc...
+* Chiffrer toutes les lettres du messages clair avec un mot clé. Il s'agit du chiffrement de Vigenere. La première lettre du mot clé donne la position à rajouter à la position de la première lettre du mot clair. Et ainsi de suite...
+
+# <a name="jeudi"></a> Jeudi
+
+## Nouveau chiffrement symétrique
+
+Le premier qui code la fonction de chiffrement symétrique décrite [ici](https://fr.wikipedia.org/wiki/Cryptographie_sym%C3%A9trique#Petite_taxinomie_du_chiffrement_sym%C3%A9trique_classique) a gagné. 
+
+## Petit théorème de Fermat
+
+Soit le petit théorème de Fermat, très utilisé en mathématiques et en cryptographie. 
+
+$$ a^{p-1} = 1 modulo p$$
 
 
 
