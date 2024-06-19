@@ -6,7 +6,7 @@
 
 [Mercredi](#mercredi) - contremesures contre l'attaque par analyse fréquentielle
 
-[Jeudi](#mjeudi) - TP sur la journée
+[Jeudi](#jeudi) - TP sur la journée
 
 # <a name="lundi"></a> Lundi 
 
@@ -288,7 +288,7 @@ Le premier qui code la fonction de chiffrement symétrique décrite [ici](https:
 
 Soit le petit théorème de Fermat, très utilisé en mathématiques et en cryptographie. 
 
-$$ a^{p-1} = 1 modulo p$$
+$$ a^{p-1} = 1 % p$$
 
 
 
