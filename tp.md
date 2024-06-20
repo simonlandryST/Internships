@@ -284,6 +284,13 @@ Q2. Prouver qu'une tierce personne ne peut pas reconstuire cette clé secrète.
 
 Le premier qui code la fonction de chiffrement symétrique décrite [ici](https://fr.wikipedia.org/wiki/Cryptographie_sym%C3%A9trique#Petite_taxinomie_du_chiffrement_sym%C3%A9trique_classique) a gagné. 
 
+**Trier les lettres d'un mot dans l'ordre alphabétique**
+
+```
+print("".join(sorted("scrabble")))
+>>> abbcelrs
+``` 
+
 ## Petit théorème de Fermat
 
 Soit ```p``` un nombre premier (divisible que par lui-même et par 1) et ```a``` premier avec ```p``` (le plus grand dénominateur commun entre ```a``` et ```p``` est égal à 1). On considère le petit théorème de Fermat : ```a^{p-1} = 1 modulo p```, très utilisé en mathématiques et en cryptographie.
