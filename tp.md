@@ -288,9 +288,9 @@ Le premier qui code la fonction de chiffrement symétrique décrite [ici](https:
 
 Soit ```p``` un nombre premier (divisible que par lui-même et par 1) et ```a``` premier avec ```p``` (le plus grand dénominateur commun entre ```a``` et ```p``` est égal à 1). On considère le petit théorème de Fermat : ```a^{p-1} = 1 modulo p```, très utilisé en mathématiques et en cryptographie.
 
-Q1. Soit G = [0,1,2,3,4,5,6] une liste de 7 éléments. Soit x un élément de G. Calculer toutes les images possible de la fonction ```f(x) = 5*x modulo 7```. Combien y a-t-il d'images possibles ? 
+Q1. Soit G = [0,1,2,3,4,5,6] une liste de 7 éléments. Soit x un élément de G. Calculer toutes les images possibles de la fonction ```f(x) = 5*x modulo 7```. Combien y a-t-il d'images possibles ? 
 
-Q2. Peut-on utiliser la fonction f pour chiffrer un texte de manière résistante à l'attaque par analyse fréquentielle ? Si oui comment ? Quelle est la valeur de la clé secrète ? Tester de chiffrer un message de votre choix.
+Q2. Peut-on utiliser la fonction f pour chiffrer un texte de manière résistante à l'attaque par analyse fréquentielle ? Si oui comment ? Quelle est la valeur de la clé secrète ? Testez le chiffrement sur un message de votre choix.
 
 <details>
   <summary>Indice</summary>
